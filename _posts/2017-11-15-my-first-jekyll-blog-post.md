@@ -13,3 +13,6 @@ blogging in the future. I can't wait to write something now.
 {% highlight go %}
 fmt.Println("Hello world!")
 {% endhighlight %}
+
+### Here's the pic
+![Good pic]({{ "/assets/go-linux-termial-development.png" | absolute_url }})
