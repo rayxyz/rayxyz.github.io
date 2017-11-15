@@ -14,5 +14,13 @@ blogging in the future. I can't wait to write something now.
 fmt.Println("Hello world!")
 {% endhighlight %}
 
-### Here's the pic
+### Here's the pics
 ![Good pic]({{ "/assets/go-linux-termial-development.png" | absolute_url }})
+
+> You can add some external pics
+
+![External pic](http://biggreensteam.com/wp-content/uploads/2014/09/Thumbs_Up_Down.png)
+
+```
+$> tree xyz/abc
+```
