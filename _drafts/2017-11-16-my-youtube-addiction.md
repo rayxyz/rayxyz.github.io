@@ -2,6 +2,7 @@
 layout: post
 title: "My Youtube Addiction"
 date: 2017-11-16 22:45:04 +0800
+categories: life
 ---
 
 # Now, Youtube has been my drug
