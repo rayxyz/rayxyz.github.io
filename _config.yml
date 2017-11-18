@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Ray's Blog
-author: Rayxyz
+author: Ray
 email: rwthecoder@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Life, tech, and everything.
@@ -40,3 +40,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+paginate: 5
+
+paginate_path: "/page:num/"

@@ -2,12 +2,13 @@
 layout: post
 title: "My Youtube Addiction"
 date: 2017-11-16 22:45:04 +0800
+categories: life
 ---
 
 # Now, Youtube has been my drug
 Since the first day I watched Youtube videos, I realized I would never boring with this website. It turns out I was right. So many interesting, entertaining, and educational quality videos over there on Youtube open my eyes, and open a window that I can see the wonderful world through it, make my life much easier and interesting than ever before. But, everything has two sides, the bad side of Youtube is I can easily spend too much time on it, and finally lose focus on other important must-do things, gradually, I lost in the video jungles. The Youtube addiction come to alive.
 
-![my-youtube-addiction-show-screen](https://raywangblog.files.wordpress.com/2017/11/my-youtube-addiction-show-screen.png)
+[![](https://raywangblog.files.wordpress.com/2017/11/my-youtube-addiction-show-screen.png) ](https://raywangblog.files.wordpress.com/2017/11/my-youtube-addiction-show-screen.png)
 
 # Yoube is big, and I got educated
 There are so many types of quality videos on different channels on Youtube. I can find open courses, television programs and all sorts of videos uploaded by people all around the globe, and I can watch live stream.

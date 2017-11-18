@@ -5,7 +5,7 @@ date: 2017-04-06
 categories: life
 ---
 
-![home-town-pic](https://raywangblog.files.wordpress.com/2017/04/sibao_summer_after_rain.jpg?quality=80&strip=info&w=800)
+[![home-town-pic](https://raywangblog.files.wordpress.com/2017/04/sibao_summer_after_rain.jpg)](https://raywangblog.files.wordpress.com/2017/04/sibao_summer_after_rain.jpg)
 
 Why I live alone? Good question.
 
