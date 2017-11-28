@@ -730,7 +730,11 @@ apt-get install ca-certificates
 ```
 
 
-
+# Atom
+## If you cannot exit full screen mode, use the following command
+```
+atom --clear-window-state
+```
 
 
 
