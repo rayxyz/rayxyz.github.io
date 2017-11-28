@@ -9,7 +9,7 @@
         <ul class="contact-list">
           <li>
             {% if site.author %}
-              {{ site.author | escape }}
+              ©{{ site.author | escape }}
             {% else %}
               {{ site.title | escape }}
             {% endif %}
@@ -37,7 +37,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }} © Ray</p>
+        <p>{{ site.description | escape }}</p>
       </div>
     </div>
 
