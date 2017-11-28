@@ -6,6 +6,14 @@ categories: tech
 ---
 
 # General
+## Input em dash —
+### Reference
+https://fsymbols.com/keyboard/linux/compose/
+
+```
+Shit+Ctl+u 2014 -> press enter key
+```
+
 ## View macheine kernel
 ```
 uname -a
