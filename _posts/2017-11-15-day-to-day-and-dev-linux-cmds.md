@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Working with setp motor"
+title: "Day to day & daily dev linux commands summary"
 date: 2017-11-15 16:56 +0800
 categories: tech
 ---
