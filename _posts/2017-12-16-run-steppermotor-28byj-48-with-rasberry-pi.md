@@ -6,7 +6,7 @@ categories: tech
 ---
 
 # Running step motor
-[![](assets/robotics/stepmotor/running-stpmt.jpg)](assets/robotics/stepmotor/running-stpmt.jpg)
+[![](assets/images/robotics/stepmotor/running-stpmt.jpg)](assets/images/robotics/stepmotor/running-stpmt.jpg)
 
 # Code
 {% highlight python %}
