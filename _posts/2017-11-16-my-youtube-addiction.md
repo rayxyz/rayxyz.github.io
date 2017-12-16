@@ -13,7 +13,7 @@ Since the first day I watched videos on Youtube, I realized I would never be bor
 # Youtube is big, I got educated and fucked
 There are so many types of quality videos on different channels on Youtube. I can find open courses, television programs and all sorts of videos uploaded by people all around the globe, and I can watch them all for free.
 
-In our lives, we have so many unknown fields we didn't reach before, but the most talented people in those fields made videos and uploaded on Youtube, we can educate ourselves by watching the videos. If I want to find knowledge about quantum physics, I used to google it, but now I will do Youtube it first. The videos tell you more details and vividly describe the concepts, it's time-saving and easier to understand.
+In our lives, we have so many unknown fields we didn't reach before, but the most talented people in those fields made videos and uploaded on Youtube, we can educate ourselves by watching the videos. If I want to find knowledge about quantum physics, I used to google it, but now I will do Youtube it first. The videos tell you more details and vividly describe the concepts, it's time-saving and easier to uassets/robotics/stepmotor/running-stpmt.jpgnderstand.
 
 I googled it, there are more than 5 billion videos on Youtube by now, and the number is growing bigger and faster every day. 5 billion? unbelievable. It is not just the number of videos, but most of them are high definition, 720P to 4K. It's insane, people can upload 4K videos and can be streamed online. I mean, the devices of 4K resolution are even not common in everyday life by now.
 
