@@ -3,6 +3,26 @@
 
 @import "{{ site.theme }}";
 
+/**
+ * Wrapper
+ */
+.wrapper {
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  @extend %clearfix;
+
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    padding-right: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+  }
+}
+
+
 .pagination a, .pagination span {
     padding: 7px 18px;
     border: 1px solid #eee;
