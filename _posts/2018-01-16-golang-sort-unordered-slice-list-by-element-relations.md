@@ -6,9 +6,6 @@ categories: tech
 ---
 
 # Code
-
-{% highlight golang %}
-
 ```
 package main
 
@@ -106,9 +103,6 @@ func main() {
 }
 
 ```
-
-{% endhighlight %}
-
 
 # Output
 ```
