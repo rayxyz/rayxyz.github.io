@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Build a RaspberryPi straming server"
+title: "Build a RasberryPI based ultrasonic distance sensing system"
 date: 2018-05-05 15:47 +0800
 categories: tech
 ---
