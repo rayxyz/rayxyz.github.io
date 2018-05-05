@@ -5,16 +5,22 @@ date: 2018-05-01 02:11 +0800
 categories: tech
 ---
 
-# Hardware components need
-## RaspberryPi 3B
-## RaspberryPi Camera
+# Hardwares needed
+```
+RaspberryPi 3B
+RaspberryPi Camera
+```
 
-# Software components need
-## python-picamera
+# Softwares needed
+```
+python-picamera
+```
+install the picamera lib
 ```
 sudo apt-get install python-picamera
 ```
-### Enable picamera
+
+# Enable picamera
 ```
 sudo raspi-config
 ```
@@ -22,7 +28,8 @@ choose interfacing options -> enable the camera, then reboot the pi:
 ```
 sudo reboot
 ```
-### Check the picamera is working
+
+# Check the picamera is working
 create a camera.py file, and copy following code snippet in the file.
 ```
 #! /usr/bin/python
@@ -38,10 +45,10 @@ camera.stop_preview()
 If there is a image called image001.jpg has been taken in the directory, it shows the
 camera is working as expected.
 
-## vlc
-### Compile vlc with hardware acceleration
+# vlc
+## Compile vlc with hardware acceleration
 https://www.raspberrypi.org/forums/viewtopic.php?f=66&t=195221
-### install vlc on client
+## install vlc on client
 ```
 sudo apt-get install vlc
 ```
