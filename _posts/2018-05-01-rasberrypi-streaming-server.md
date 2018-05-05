@@ -80,6 +80,10 @@ is a big issue. The following image shows my straming server is working properly
 
 ## The real time streaming
 Though there's about 5 seconds latency, the streaming seems works just fine.
-[![](/assets/videos/2018-05-01/rasp-vlc-streaming-sample.mp4)](/assets/videos/2018-05-01/rasp-vlc-streaming-sample.mp4)
+```html
+<video controls autoplay>
+    <source src="/assets/videos/2018-05-01/rasp-vlc-streaming-sample.mp4" type="video/mp4"/>
+</video>
+```
 
 # Notice: Check the power is enough, 5V and 2.5A are needed to run the straming server
