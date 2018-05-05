@@ -69,6 +69,10 @@ VLC is unable to open the MRL 'rtsp://192.168.0.200:8554'. Check the log for det
 ```
 If anthing goes well, now, you can watch the real time video camputred by the pi camera though the latency
 is a big issue. The following image shows my straming server is working properly:
+[![](/assets/images/2018-05-01/in-streaming.png)](/assets/images/2018-05-01/in-streaming.png)
 
+## The real time streaming
+Though there's about 5 seconds latency, the streaming seems works just fine.
+[![](/assets/videos/2018-05-01/rasp-vlc-streaming-sample.mp4)](/assets/videos/2018-05-01/rasp-vlc-streaming-sample.mp4)
 
-# Check the power is enough, 5V and 2A are needed to run the straming server
+# Notice: Check the power is enough, 5V and 2.5A are needed to run the straming server
