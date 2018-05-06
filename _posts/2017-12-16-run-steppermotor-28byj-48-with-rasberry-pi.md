@@ -15,10 +15,10 @@ categories: tech
 import RPi.GPIO as GPIO
 import time
 
-IN1 = 7    # pin11
-IN2 = 11
-IN3 = 13
-IN4 = 15
+IN1 = 7
+IN2 = 13
+IN3 = 15
+IN4 = 18
 
 def setStep(w1, w2, w3, w4):
     GPIO.output(IN1, w1)
