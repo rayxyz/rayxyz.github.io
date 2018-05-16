@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Setup Google Custom Search"
+title: "Setup Google Custom Search & Search Images Using Python"
 date: 2018-05-16 14:19 +0800
 categories: tech
 ---
