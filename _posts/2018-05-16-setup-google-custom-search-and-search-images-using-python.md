@@ -14,7 +14,7 @@ categories: tech
 # Setup the created custom search engine
 [![](/assets/images/2018-05-18/setup-custom-search-engine.png)](/assets/images/2018-05-18/setup-custom-search-engine.png)
 
-If we want to search images, we should turn on the image search button. The default search option in sites to search section is `search only included sites`, here I choose to search on entire web. Everything set up, we can try it out by search on the right of the page. As you can see, we use the keyword life, the results are related.
+If we want to search images, we should turn on the image search button. The default search option in sites to search section is `search only included sites`, here I choose `search on entire web but emphasize included sites` option. Everything set up, we can try it out by search on the right of the page. As you can see, we use the keyword life, the results are related.
 
 # Use Google Custom Search API with Python
 ## Install google-api-python-client
@@ -28,11 +28,11 @@ If we want to search images, we should turn on the image search button. The defa
 from apiclient.discovery import build
 
 service = build("customsearch", "v1",
-               developerKey="AIzaSyBp3hgyJhHb0eqzRSYNl-_a0AHw_EToLBk")
+               developerKey="API_KEY")
 
 res = service.cse().list(
     q='face',
-    cx='006837971229697054245:dwfstyb2fvc',
+    cx='YOUR_CX',
     searchType='image',
     num=10,
     imgType='clipart',
