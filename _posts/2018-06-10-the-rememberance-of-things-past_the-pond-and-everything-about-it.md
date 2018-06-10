@@ -7,7 +7,7 @@ categories: life
 [![](/assets/images/2018-06-10/my-village.jpg)](/assets/images/2018-06-10/my-village.jpg)
 
 # The pond
-The pond was built in the Qing dynasty, I don't know what specific year. Some people outside of my town call the pond as a lake, but in Bai language, I can’t find a counterpart word of lake; we have the word "ben" for water bodies built by people, which literally means reservoir, and the purpose of building the pond is to hold water for farming use. Maybe the word pond is more suitable for everyday use and a little more poetic.
+The pond was built in the Qing dynasty, I don't know what specific year. Some people outside of my town call the pond as a lake, but in Bai language, I can’t find a counterpart word of "lake"; we have the word "ben" for water bodies built by people, which literally means reservoir, and the purpose of building the pond is to hold water for farming use. Maybe the word pond is more suitable for everyday use and a little more poetic.
 
 The pond is about 100 acres in area; in summer, when the water reaches the highest point, it can be 4 meters deep. It was told once the pond was built, my town became rich and it was one of the richest towns in our province. Many talented people in our town showed up those days. Time change, once an abundant place now becomes poor and isolated from the outside.
 
