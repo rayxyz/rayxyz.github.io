@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Remembrance of Things Past: The Pond and Everying about It"
+title: "Remembrance of Things Past: The Pond and Everything about It"
 date: 2018-06-10 15:00 +0800
 categories: life
 ---
