@@ -102,6 +102,15 @@ It was very late at night, I was totally tired of all the things happened in suc
 
 Many years later, I thought the police was had deals with the contractors, it's the same in anywhere of the country. But anyway, except the control and anti-control scenes and unpleasant events, I still had happy times through the years.
 
+# Friendships
+In my early life, my activities were almost constrained in the pond area. For children, the area was big enough to do anything they want. My friendships were all almost based on the pond area.
+
+The friendships built at that time were firm and strong. We could do anything together, from playing video games to stay out in someone's home. There were no true hostile situations among us though sometimes some of us got angry about something. I think the pure friendships are only existing in children, not adult life.
+
+I remember when I was 11 years old, the VCD/DVD industry was booming. In my village at that time, only a small part of families had VCD/DVD players, and only one VCD/DVD rental room. Before the VCD/DVD industry, we watched cable TVs in someone's family almost every day. The VCD/DVD industry brought us all kinds of movies, Hong Kong Kung-Fu movies and Young and Dangerous series, American sci-fi movies, etc. All of these novel movies poured into our lives, and the culture gap between the traditional and the new begins at that point. At the weekends or on summer or winter vacations, the pond was the secret rendezvous. We gathered at the pond bank, went to the VCD/DVD rental room to get some VCD/DVDs with fascinating covers on them, and hastily went to someone's family to watch.
+
+The friendships built in my childhood were almost based on the pond. The pond was the place to offer the space of responsibility free. I dare to say that I had the most precious friendships and wonderful childhood in the world.
+
 # The pond now
 I left my hometown 12 years ago to went to high school since then the connections between the pond and me became weaker. The pond once in my real life becomes an illusion to me, sometimes it just exists in my dream. Every time I got home, it always just like that, with heavy fish farming, the eutrophication of the water makes the visibility really bad. In the past, people could wash vegetables in the pond, kids dove down into the bottom of the water, open eyes to see the sunlight beaming through the water. But that never comes back, the water quality keeps in low level, although there's the Erhai Lake protection:  the water sources of the Erhai lake are being supervised and all the sources of water pollution are strictly controlled, restaurants and hotels were closed up around it to have the clear water come back. I think the environmentalists had forgotten to improve the pond—one of the many sources of pollution of the Erhai Lake.
 
@@ -112,15 +121,6 @@ Due to the water pollution, people now don't have many connections with the pond
 Every year, new babies will be born in the village, new people will come and live; people with good memories of the pond are decreasing, the elderly people die, they took the stories of the pond with them, the new generation will never know the mysterious and  magical stories; grown-up people are leaving their ancestor's place to make a living, then many of them will not return. The change of community structure, causing the culture of the village losing its stances.
 
 The profits of fish farming to the contractors make them do harm to the pond and the villagers and the environment ecosystem of the town, not because they were lacking knowledge of environment protection. I wish one day, we can put those immoral contractors in jail, to let them deeply thinking about the ecosystem they had completely destroyed.
-
-# Friendships
-In my early life, my activities were almost constrained in the pond area. For children, the area was big enough to do anything they want. My friendships were all almost based on the pond area.
-
-The friendships built at that time were firm and strong. We could do anything together, from playing video games to stay out in someone's home. There were no true hostile situations among us though sometimes some of us got angry about something. I think the pure friendships are only existing in children, not adult life.
-
-I remember when I was 11 years old, the VCD/DVD industry was booming. In my village at that time, only a small part of families had VCD/DVD players, and only one VCD/DVD rental room. Before the VCD/DVD industry, we watched cable TVs in someone's family almost every day. The VCD/DVD industry brought us all kinds of movies, Hong Kong Kung-Fu movies and Young and Dangerous series, American sci-fi movies, etc. All of these novel movies poured into our lives, and the culture gap between the traditional and the new begins at that point. At the weekends or on summer or winter vacations, the pond was the secret rendezvous. We gathered at the pond bank, went to the VCD/DVD rental room to get some VCD/DVDs with fascinating covers on them, and hastily went to someone's family to watch.
-
-The friendships built in my childhood were almost based on the pond. The pond was the place to offer the space of responsibility free. I dare to say that I had the most precious friendships and wonderful childhood in the world.
 
 # Conclusion
 The pond in my village was built hundreds of years ago, it fed the people, helped people to get over poverty; the scenery of the pond was amazing, but it has gone. The environmental ecosystem of the pond was destroyed by greedy contractors. Under circumstances of environment protection context of the country or the city, the water quality protection of the pond still got no attention in the past couple years. Someone's economic benefits always surpass the desire of the people, I wish if we can build a sustainable ecosystem to help the pond to restore its system, such that can we reverse the damage of the pond, the beautiful scenery of the pond and beautiful memories will pass to the next and the next generation.
