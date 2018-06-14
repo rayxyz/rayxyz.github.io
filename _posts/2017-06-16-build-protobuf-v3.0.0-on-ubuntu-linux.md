@@ -10,6 +10,18 @@ categories: tech
 # Caution: the autogen.sh
 ![modify-gmock-download-address](https://raywangblog.files.wordpress.com/2017/06/modify-gmock-download-address.png?w=1100?w=300)
 
+```
+curl $curlopts -L -O https://github.com/google/googlemock/archive/release-1.7.0.zip
+unzip -q release-1.7.0.zip
+rm release-1.7.0.zip
+mv googlemock-release-1.7.0 gmock
+
+curl $curlopts -L -O https://github.com/google/googletest/archive/release-1.7.0.zip
+unzip -q release-1.7.0.zip
+rm release-1.7.0.zip
+mv googletest-release-1.7.0 gmock/gtest
+```
+
 You have to comment the original gmock-1.7.0.zip download address, it is not available anymore. Add the orange color code block. Now, you can download the zip file.
 
 After build, check the build:
