@@ -4,4 +4,4 @@ title: Notice
 permalink: /notice/
 ---
 
-# 7 things I don't care
+# No notice available

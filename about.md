@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-# I'm a tech guy who doesn't care whatsoever will happen.
+# Thing are going out of control
 
-[![](/assets/images/me-of-art-of-machines.png)](/assets/images/me-of-art-of-machines.png)
+[![](/assets/images/alien.jpg)](/assets/images/alien.jpg)
