@@ -179,6 +179,7 @@ New Yorker
 
 在英文写作时，我最常用的时Google docs，如果会翻墙那么用Google docs会有很大的帮助。它和Office Word相似，但是完全运行在云端，只要有网络，到哪里都可以写作。Google docs还提供插件、语法及拼写错误检测等。
 
+[![](http://rayxyz.github.io/assets/images/englearning20180-09-26/google-docs-screenshot.png)](http://rayxyz.github.io/assets/images/englearning20180-09-26/google-docs-screenshot.png)
 
 其实用什么来写做不重要，只要符合自己需求的就ok了。只不过在计算机上写作，文字容易编辑和修改，并且可以无限复制与分享。日常写日记的话，推介Google docs（如果可以翻墙），容易上手，文件安全有保障，并且可以永久保存。也可以将将写好的文章、日记保存到有道云笔记或QQ日志，或其他博客平台。Google docs提供了简单的语法检查，如果要分析写作内容的好坏，可以添加语法插件来进行详细的分析；也可以用专业的语法检测工具Grammarly来分析，条件允许的话最好给英语为母语的专业人士批改、分析。
 
