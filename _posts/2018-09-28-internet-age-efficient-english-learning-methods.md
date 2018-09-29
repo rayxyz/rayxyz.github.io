@@ -80,12 +80,7 @@ categories: eng
 
 Jump -> hop -> leap
 
-[![](http://rayxyz.github.io/assets/images/englearning20180-09-26/jump.jpeg)](http://rayxyz.github.io/assets/images/englearning20180-09-26/jump.jpeg)
-
-[![](http://rayxyz.github.io/assets/images/englearning20180-09-26/hop.jpg)](http://rayxyz.github.io/assets/images/englearning20180-09-26/hop.jpg)
-
-[![](http://rayxyz.github.io/assets/images/englearning20180-09-26/leap.jpg)](http://rayxyz.github.io/assets/images/englearning20180-09-26/leap.jpg)
-
+[![](https://rayxyz.github.io/assets/images/englearning20180-09-26/jump-hop-leap.png)](https://rayxyz.github.io/assets/images/englearning20180-09-26/jump-hop-leap.png)
 
 还有的人热衷于通过视频（包含电影、电视剧、英语学习视频等）学习单词，这种方法类似与通过图形图像来记单词。
 
