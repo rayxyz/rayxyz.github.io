@@ -66,7 +66,7 @@ categories: eng
 
 无论英文水平怎么样，我们都应该勇于运用。用英文来写日志，看纯英文的视频，阅读原版著作，如果时搞IT，那么运用英文的场景就相当广了。每一次的应用都会刺激大脑，使大脑中的神经元之间建立关系，当这张英语知识神经网络越来越复杂的时候，那么就是我们英语水平越来越好的时候。
 
-# 如何打造坚实的英语基础&书
+# 如何打造坚实的英语基础 & 书
 
 ## 单词
 适用方法：持久战法、碎片法、生活方式法、实践法
@@ -160,14 +160,14 @@ On the Road
 The Glass Castle
 The Old Man and The Sea
 A Farewell to Arms
-The Waden
+Walden
 Sapiens: A Brief History of Humankind
 A Global History: From Prehistory to the 21st Century
 The Richest Man in Babylon
 The Illustrated Bible Story by Story
 The best American essays
-The National Geographics
-New Yorker
+National Geographic
+THE NEW YORKER
 ```
 
 ## 写作
@@ -213,7 +213,8 @@ New Yorker
 4. 和身边的其他英语学习同学交流，如果能进行深度交流那就太好了，深度的表达能极大的让我们专注，充分调动我们所累积的知识库，对表达能力的提高是最有效的。多看talk show并模仿之。
 
 在口语中，有一点口音没多大问题，表达能力是最重要的。良好的表达能力是个人综合素质的体现，不只是单纯的英语口语的流利程度，因为表达能力涉及到个人的生活经验、知识储备、认知等，所以要提高表达能力就要在其他涉及到的方面也要提升。
-翻译？
+
+## 翻译？
 如果只是单纯的学习和使用英语这个工具，根本就没必要搞什么翻译这个部分，除非你要成为翻译人员。给我的感觉是中英互译有时会起到反作用，不但提高不了英文水平，有时候是一种阻碍，因为在翻译时会用到中文式思维，这在学习英文时是大忌。大家都是听说读写译，其中译是最不需要去刻意练习的，但你达到一定水平后，翻译自然就会上去。
 
 # 工具 & 平台
