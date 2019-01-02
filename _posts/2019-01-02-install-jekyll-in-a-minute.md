@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "如何安装jekyll(只需一分钟)"
+title: "如何安装jekyll(只需1分钟)"
 date: 2019-01-02 13:00 +0800
 categories: tech
 ---
+
+[![](http://rayxyz.github.io/assets/images/general/install-jekyll-in-a-minute.png)](http://rayxyz.github.io/assets/images/general/install-jekyll-in-a-minute.png)
 
 # 操作系统
 ```
@@ -49,4 +51,5 @@ RubyDep: WARNING: (To disable warnings, see:http://github.com/e2/ruby_dep/wiki/D
 [2019-01-02 13:24:08] ERROR `/favicon.ico' not found.
 ```
 
-此时，打开浏览器并输入http://127.0.0.1:4000/,就可以访问生成的站点了。
+此时，打开浏览器并输入http://127.0.0.1:4000/,就可以访问生成的站点了：
+[![](http://rayxyz.github.io/assets/images/general/install-jekyll-in-a-minute-page-view.png)](http://rayxyz.github.io/assets/images/general/install-jekyll-in-a-minute-page-view.png)
