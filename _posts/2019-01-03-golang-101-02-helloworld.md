@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Golang 101 #2 Hello world!"
-date: 2019-01-02 13:00 +0800
+date: 2019-01-04 13:00 +0800
 categories: tech
 ---
 
