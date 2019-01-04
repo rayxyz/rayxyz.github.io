@@ -9,9 +9,9 @@ categories: tech
 本系列教程基于Ubuntu 16.04 LTS操作系统编写。
 ## Go官网
 国际
-![golang.org](https://golang.org)
+[golang.org](https://golang.org)
 国内
-![golang.google.cn](https://golang.google.cn)
+[golang.google.cn](https://golang.google.cn)
 
 # 安装Go
 下载地址：https://golang.org/dl/ 或 https://golang.google.cn/dl/
@@ -44,7 +44,7 @@ GOPATH="/home/ray/go_workspace"
 ```
 
 GOPATH为创建的工作空间的目录路径。
-由于/etc/environment系统环境变量，又重启后才生效：
+由于/etc/environment系统环境变量，重启后才生效：
 ```
 reboot
 ```
