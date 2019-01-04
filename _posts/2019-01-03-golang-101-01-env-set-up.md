@@ -8,8 +8,10 @@ categories: tech
 # 说明
 本系列教程基于Ubuntu 16.04 LTS操作系统编写。
 ## Go官网
-国际 [golang.org]: https://golang.org
-国内 [golang.google.cn]: https://golang.google.cn
+国际
+[golang.org]: https://golang.org
+国内 
+[golang.google.cn]: https://golang.google.cn
 
 # 安装Go
 下载地址：https://golang.org/dl/ 或 https://golang.google.cn/dl/
