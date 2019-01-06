@@ -9,8 +9,8 @@ categories: tech
 
 在市场上，类似Github的平台工具有很多，比如Gitlab, Gogs, Gitea等等。由于Gitlab太占用内存资源，Gogs经过查询，大家对它评价不是很好，所以被我排除了，但是基于Go开发的Gitea的评价貌似不错，又免费开源、内存占用很低。所以，我就搭建了基于Gitea的版本控制系统，编写本文以备以后查阅。
 
-我的操作系统是: Ubuntu 16.04 LTS
-我的IP/域名: www.xyz.com（假的）
+> 我的操作系统是: Ubuntu 16.04 LTS
+> 我的IP/域名: www.xyz.com（假的）
 
 # Gitea官方安装方法
 https://docs.gitea.io/en-us/install-from-binary/
@@ -140,24 +140,24 @@ Jan 06 10:57:18 ahezime systemd[1]: Started Gitea (Git with a cup of tea).
 
 # 安装MySQL Server
 见 远程连接Linux下MySQL服务器 教程
-https://rayxyz.github.io/tech/2017/05/13/connect-remote-linux-mysql-server.html
+[https://rayxyz.github.io/tech/2017/05/13/connect-remote-linux-mysql-server.html](https://rayxyz.github.io/tech/2017/05/13/connect-remote-linux-mysql-server.html)
 
 # 新建gitea数据库
-[![](/assets/images/gitea-installation-create-gitea-db.png)](/assets/images/gitea-installation-create-gitea-db.png)
+[![](https://rayxyz.github.io/assets/images/general/gitea-installation-create-gitea-db.png)](/assets/images/general/gitea-installation-create-gitea-db.png)
 
 # Web端初始化安装gitea
 浏览器打开 http://www.xyz:3000 (此处为你自己的ip/域名+端口)
 
-[![](/assets/images/gitea-installation-page-part1.png)](/assets/images/gitea-installation-page-part1.png)
-[![](/assets/images/gitea-installation-page-part2.png)](/assets/images/gitea-installation-page-part2.png)
+[![](https://rayxyz.github.io/assets/images/general/gitea-installation-page-part1.png)](https://rayxyz.github.io/assets/images/general/gitea-installation-page-part1.png)
+[![](https://rayxyz.github.io/assets/images/general/gitea-installation-page-part2.png)](https://rayxyz.github.io/assets/images/general/gitea-installation-page-part2.png)
 
-各个参数填好后，点击 <Install Gitea> 按钮安装。
+各个参数填好后，点击 'Install Gitea' 按钮安装。
 
 安装过程很快；成功后的页面：
-[![](/assets/images/gitea-installation-okay-first-page.png)](/assets/images/gitea-installation-okay-first-page.png)
+[![](https://rayxyz.github.io/assets/images/general/gitea-installation-okay-first-page.png)](https://rayxyz.github.io/assets/images/general/gitea-installation-okay-first-page.png)
 
 安装完成后数据库多了很多gitea相关表：
-[![](/assets/images/gitea-installation-complete-db-tables.png)](/assets/images/gitea-installation-complete-db-tables.png)
+[![](https://rayxyz.github.io/assets/images/general/gitea-installation-complete-db-tables.png)](https://rayxyz.github.io/assets/images/general/gitea-installation-complete-db-tables.png)
 
 服务器上/etc/gitea/app.ini文件中生成的配置信息:
 ```
@@ -231,7 +231,7 @@ ROOT_PATH = /var/lib/gitea/log
 到此，Gitea已经安装完成了，接下来就类似Github一样，注册用户，开始Gitea之旅。
 
 # 参考
-https://docs.gitea.io/en-us/install-from-binary/
-https://rayxyz.github.io/tech/2017/05/13/connect-remote-linux-mysql-server.html
-https://discourse.gitea.io/t/solved-re-run-gitea-first-time-installation/599
-https://docs.gitea.io/en-us/config-cheat-sheet/
+[https://docs.gitea.io/en-us/install-from-binary/](https://docs.gitea.io/en-us/install-from-binary/)
+[https://rayxyz.github.io/tech/2017/05/13/connect-remote-linux-mysql-server.html](https://rayxyz.github.io/tech/2017/05/13/connect-remote-linux-mysql-server.html)
+[https://discourse.gitea.io/t/solved-re-run-gitea-first-time-installation/599](https://discourse.gitea.io/t/solved-re-run-gitea-first-time-installation/599)
+[https://docs.gitea.io/en-us/config-cheat-sheet/](https://docs.gitea.io/en-us/config-cheat-sheet/)
