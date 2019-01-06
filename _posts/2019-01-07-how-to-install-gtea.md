@@ -235,6 +235,9 @@ ROOT_PATH = /var/lib/gitea/log
 
 # 参考
 [https://docs.gitea.io/en-us/install-from-binary/](https://docs.gitea.io/en-us/install-from-binary/)
+
 [https://rayxyz.github.io/tech/2017/05/13/connect-remote-linux-mysql-server.html](https://rayxyz.github.io/tech/2017/05/13/connect-remote-linux-mysql-server.html)
+
 [https://discourse.gitea.io/t/solved-re-run-gitea-first-time-installation/599](https://discourse.gitea.io/t/solved-re-run-gitea-first-time-installation/599)
+
 [https://docs.gitea.io/en-us/config-cheat-sheet/](https://docs.gitea.io/en-us/config-cheat-sheet/)
