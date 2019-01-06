@@ -159,7 +159,7 @@ Jan 06 10:57:18 ahezime systemd[1]: Started Gitea (Git with a cup of tea).
 安装过程很快；成功后的页面：
 [![](https://rayxyz.github.io/assets/images/general/gitea-installation-okay-first-page.png)](https://rayxyz.github.io/assets/images/general/gitea-installation-okay-first-page.png)
 
-安装完成后数据库多了很多gitea相关表：
+安装完成后数据库多了很多gitea相关表：<br/>
 [![](https://rayxyz.github.io/assets/images/general/gitea-installation-complete-db-tables.png)](https://rayxyz.github.io/assets/images/general/gitea-installation-complete-db-tables.png)
 
 服务器上/etc/gitea/app.ini文件中生成的配置信息:
