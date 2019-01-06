@@ -5,6 +5,8 @@ date: 2019-01-06 19:00 +0800
 categories: tech
 ---
 
+[![](https://rayxyz.github.io/assets/images/general/gitea-ahezime-repo-show-page.png)](https://rayxyz.github.io/assets/images/general/gitea-ahezime-repo-show-page.png)
+
 在实际软件开发中，为了代码的规范化管理，我们依赖各种版本工具来控制软件代码的版本。Git作为新一代的版本控制工具，现在已经很流行了，很大原因是Github的流行。但在Github上要创建私有项目要购买服务，并且我们也不想让私有的代码或文档放到我们无法控制的公共平台上。所以建立一个内部使用的类似Github的平台将会极大方便代码的管理。
 
 在市场上，类似Github的平台工具有很多，比如Gitlab, Gogs, Gitea等等。由于Gitlab太占用内存资源，Gogs经过查询，大家对它评价不是很好，所以被我排除了，但是基于Go开发的Gitea的评价貌似不错，又免费开源、内存占用很低。所以，我就搭建了基于Gitea的版本控制系统，编写本文以备以后查阅。
