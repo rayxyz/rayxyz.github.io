@@ -11,14 +11,15 @@ categories: tech
 
 在市场上，类似Github的平台工具有很多，比如Gitlab, Gogs, Gitea等等。由于Gitlab太占用内存资源，Gogs经过查询，大家对它评价不是很好，所以被我排除了，但是基于Go开发的Gitea的评价貌似不错，又免费开源、内存占用很低。所以，我就搭建了基于Gitea的版本控制系统，编写本文以备以后查阅。
 
-> 我的操作系统是: Ubuntu 16.04 LTS
-> 我的IP/域名: www.xyz.com（假的）
+1. 我的操作系统是: Ubuntu 16.04 LTS
+2. 我的IP/域名: www.xyz.com（假的）
+3. Git版本： git version 2.7.4
 
 # Gitea官方安装方法
-https://docs.gitea.io/en-us/install-from-binary/
+[https://docs.gitea.io/en-us/install-from-binary/](https://docs.gitea.io/en-us/install-from-binary/)
 
 # Gitea作为Linux系统服务
-https://docs.gitea.io/en-us/linux-service/
+[https://docs.gitea.io/en-us/linux-service/](https://docs.gitea.io/en-us/linux-service/)
 
 /etc/systemd/system/gitea.service文件内容：
 ```
