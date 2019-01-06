@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "安装版本控制Git服务Gitea"
-date: 2019-01-06 19:00 +0800
+date: 2019-01-07 02:58 +0800
 categories: tech
 ---
 
