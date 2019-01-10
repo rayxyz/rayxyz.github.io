@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Golang依赖管理： Go Modules"
-date: 2019-01-04 13:00 +0800
+date: 2019-01-10 13:00 +0800
 categories: tech
 ---
 
