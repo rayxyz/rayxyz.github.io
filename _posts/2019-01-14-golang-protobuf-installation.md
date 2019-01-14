@@ -5,6 +5,8 @@ date: 2019-01-14 13:00 +0800
 categories: tech
 ---
 
+[![](https://rayxyz.github.io/assets/images/general/grpc-pic.png)](https://rayxyz.github.io/assets/images/general/grpc-pic.png)
+
 # Install gRCP
 ```
 go get -u google.golang.org/grpc
