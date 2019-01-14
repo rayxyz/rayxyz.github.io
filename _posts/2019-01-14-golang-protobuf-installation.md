@@ -73,4 +73,4 @@ xprotoc auth.proto
 The generated Go protobuf file:
 [![](https://rayxyz.github.io/assets/images/general/protobuf-generated-file.png)](https://rayxyz.github.io/assets/images/general/protobuf-generated-file.png)
 
-Now, the gRPC & Protobuf have been setup
+Now, the gRPC & Protobuf have been setup.
