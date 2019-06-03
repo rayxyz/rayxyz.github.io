@@ -5,6 +5,7 @@ date: 2019-06-03 19:00 +0800
 categories: tech
 ---
 
+[![](https://rayxyz.github.io/assets/images/general/run-tensorflow-hello_world-program.png)](https://rayxyz.github.io/assets/images/general/run-tensorflow-hello_world-program.png)
 
 # Step 1
 Get a VPS if you don't have one. 
