@@ -259,3 +259,6 @@ Everything goes flawlessly. The program runs smoothly, we can see the programs p
 ```
 
 Now, our first tensorflow hello_world program is a big success. Cheers!
+
+# Reference
+[How to use SOCKS 5 proxy in Ubuntu command line](https://bokunokeiken.wordpress.com/2015/07/22/how-to-use-socks-5-proxy-in-ubuntu-command-line/)
