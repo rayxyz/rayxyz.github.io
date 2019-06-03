@@ -10,12 +10,12 @@ categories: tech
 Get a VPS if you don't have one. 
 I already have one. Let's connect to the VPS by SSH:
 ```
-ssh -D 12345 root@159.65.73.232
+ssh -D 12345 root@12.34.56.78
 ```
 
 # step 2
 Config the computer to apply the network proxy. Here I use ubuntu OS, my config as following:
-##pics here
+[![](https://rayxyz.github.io/assets/images/general/setup-socks-proxy-on-ubuntu.png)](https://rayxyz.github.io/assets/images/general/setup-socks-proxy-on-ubuntu.png)
 
 # Step 3
 Install proxychains
@@ -116,7 +116,7 @@ Successfully installed absl-py-0.7.1 astor-0.8.0 gast-0.2.2 grpcio-1.21.1 h5py-2
 
 # Step 5
 Ok now, we can try it out. Copy & paste the tensorflow hello_world.py code in the editor.
-
+[![](https://rayxyz.github.io/assets/images/general/tensorflow-hello_world-code.png)](https://rayxyz.github.io/assets/images/general/tensorflow-hello_world-code.png)
 
 ```
 import tensorflow as tf
