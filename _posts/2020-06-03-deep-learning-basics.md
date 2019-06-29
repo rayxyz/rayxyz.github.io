@@ -5,7 +5,7 @@ date: 2019-06-29 18:20 +0800
 categories: tech
 ---
 
-[![](https://rayxyz.github.io/assets/images/general/deep-learning-with-python-book-cover.png)](https://rayxyz.github.io/assets/images/general/deep-learning-with-python-book-cover.png)
+<img src="https://rayxyz.github.io/assets/images/general/deep-learning-with-python-book-cover.png" with="300" height="400"/>
 
 **_Deep Learning with Python_** keynotes & pratice <br/>
 <<**_Deep Learning with Python_**>> 书中基础部分读书笔记及实践
