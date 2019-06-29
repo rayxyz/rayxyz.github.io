@@ -323,7 +323,7 @@ E.g: 3-fold cross-validation:
 There’s something wrong in the figure?
 
 
-```
+```python
 k = 4
 num_validation_samples = len(data) // k
 np.random.shuffle(data)
