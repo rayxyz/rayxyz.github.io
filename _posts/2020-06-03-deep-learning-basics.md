@@ -190,7 +190,7 @@ E.g: x = [[1, 2], [3, 4], [5, 6]], x.reshape(2, 3) => x = [[1, 2, 3], [4, 5, 6]]
 
 _Neural networks_ consist entirely of chains of tensor operations and that all of these tensor operations are just geometric transformations of the input data. It follows that you can interpret a neural network as a very complex geometric transformation in a high-dimensional space, implemented via a long series of simple steps.
 
-Engine of neural networks: gradient-based optimization
+# Engine of neural networks: gradient-based optimization
 
 **Mini-batch stochastic gradient descent**
 
@@ -218,7 +218,7 @@ Note that a variant of the mini-batch SGD algorithm would be to draw a single sa
 3. Compute the loss of the network on the batch, a measure of the mismatch between y_pred and y. 
 4. Update all weights of the network in a way that slightly reduces the loss on this batch.
 
-Machine-learning problem types
+# Machine-learning problem types
 
 **Binary classification**
 
@@ -368,7 +368,7 @@ _Learned:_
     few hidden layers (typically only one or two), in order to avoid severe overfitting.
 
 
-Machine-learning forms
+# Machine-learning forms
 
 **Supervised learning **
 
@@ -497,7 +497,7 @@ plt.show()
 [![](https://rayxyz.github.io/assets/images/general/deep-learning-original-l2-validation-loss.png)](https://rayxyz.github.io/assets/images/general/deep-learning-original-l2-validation-loss.png)
 
 
-Developing a model that does better than a baseline
+# Developing a model that does better than a baseline
 
 **Two hypotheses**
 
