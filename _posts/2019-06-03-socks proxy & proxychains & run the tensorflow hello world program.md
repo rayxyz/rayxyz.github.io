@@ -7,6 +7,7 @@ categories: tech
 
 [![](https://rayxyz.github.io/assets/images/general/run-tensorflow-hello_world-program.png)](https://rayxyz.github.io/assets/images/general/run-tensorflow-hello_world-program.png)
 
+
 # Step 1
 Get a VPS if you don't have one. 
 I already have one. Let's connect to the VPS by SSH:

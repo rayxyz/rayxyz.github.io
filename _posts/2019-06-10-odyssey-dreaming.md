@@ -5,7 +5,7 @@ date: 2019-06-10 01:30 +0800
 categories: life
 ---
 
-[![](https://rayxyz.github.io/assets/images/general/odyssey-dreaming-new.jpg)](https://rayxyz.github.io/assets/images/general/odyssey-dreaming-new.jpg)
+<img src="https://rayxyz.github.io/assets/images/general/odyssey-dreaming-new.jpg" with="300" height="300">
 
 I had an odyssey dream this morning. Sharing it with people is an effective way to make it up to another level, whether by memory or by emotion. I had the habit of recording my dreams. Turning virtual world experience into real-world memory is an interesting chore. Let's transform it.
 
