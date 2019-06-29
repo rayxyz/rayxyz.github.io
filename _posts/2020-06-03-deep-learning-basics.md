@@ -1,9 +1,14 @@
 ---
 layout: post
-title: "Deep Learning Basics"
+title: "Deep Learning with Python keynotes: 机器学习/深度学习基础"
 date: 2019-06-29 18:20 +0800
 categories: tech
 ---
+
+[![](https://rayxyz.github.io/assets/images/general/deep-learning-with-python-book-cover.png)](https://rayxyz.github.io/assets/images/general/deep-learning-with-python-book-cover.png)
+
+**_Deep Learning with Python_** keynotes & pratice <br/>
+<<**_Deep Learning with Python_**>> 书中基础部分读书笔记及实践
 
 **_Machine learning_** is, technically: searching for useful representa-tions of some input data, within a predefined space of possibilities, using guidance from a feedback signal.
 
@@ -26,13 +31,7 @@ adjust the value of the weights a little, in a direction that will lower the los
 This _adjustment_ is the job of the optimizer, which implements what’s called the _Backpropagation_ algorithm: the central algorithm in deep learning.
 
 
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Deep-Learning0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Deep-Learning0.png "image_tooltip")
-
-
+[![](https://rayxyz.github.io/assets/images/general/deep-learning-process.png)](https://rayxyz.github.io/assets/images/general/deep-learning-process.png)
 
 
 *   _Layers_, which are combined into a network (or model)
@@ -45,6 +44,7 @@ Initially, the weights of the network are assigned random values, so the network
 **_Overfitting_**: the fact that machine-learning models tend to perform worse on new data than on their training data.
 
 **_Tensor_**: At its core, a tensor is a container for data—almost always numerical data. So, it’s a container for numbers. You may be already familiar with matrices, which are 2D tensors: tensors are a generalization of matrices to an arbitrary number of dimensions (note that in the context of tensors, a dimension is often called an axis).
+
 
 _Scalar_: Only one number
 
@@ -70,9 +70,10 @@ _Matrices_: An array of Vectors
 
 ...
 
-…
+...
 
-…
+...
+
 
 _Tensor attributes_: Number of axes (rank), Shape, Data type
 
@@ -134,10 +135,7 @@ features)
 
 
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Deep-Learning1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Deep-Learning1.png "image_tooltip")
+[![](https://rayxyz.github.io/assets/images/general/3D-timeseries-data-tensor.png)](https://rayxyz.github.io/assets/images/general/3D-timeseries-data-tensor.png)
 
 
 _Images—_ 4D tensors of shape (samples, height, width, channels) or (samples,
@@ -146,10 +144,7 @@ channels, height, width)
 
 
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Deep-Learning2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Deep-Learning2.png "image_tooltip")
+[![](https://rayxyz.github.io/assets/images/general/4D-image-tensor.png)](https://rayxyz.github.io/assets/images/general/4D-image-tensor.png)
 
 
 _Video—_ 5D tensors of shape (samples, frames, height, width, channels) or
@@ -201,10 +196,7 @@ Engine of neural networks: gradient-based optimization
 
 
 
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Deep-Learning3.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Deep-Learning3.png "image_tooltip")
+[![](https://rayxyz.github.io/assets/images/general/deep-learning-sgd.png)](https://rayxyz.github.io/assets/images/general/deep-learning-sgd.png)
 
 
 As you can see, intuitively it’s important to pick a reasonable value for the step factor.
@@ -325,10 +317,7 @@ E.g: 3-fold cross-validation:
 
 	
 
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Deep-Learning4.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Deep-Learning4.png "image_tooltip")
+[![](https://rayxyz.github.io/assets/images/general/k-fold-validation.png)](https://rayxyz.github.io/assets/images/general/k-fold-validation.png)
 
 
 There’s something wrong in the figure?
@@ -413,7 +402,7 @@ Most common ways to prevent overfitting
 *   Add dropout.
 
 
-```
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 from tensorflow import keras
@@ -502,20 +491,10 @@ plt.show()
 ```
 
 
+[![](https://rayxyz.github.io/assets/images/general/deep-learning-prevent-overfitting.png)](https://rayxyz.github.io/assets/images/general/deep-learning-prevent-overfitting.png)
 
 
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Deep-Learning5.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Deep-Learning5.png "image_tooltip")
-
-
-
-
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Deep-Learning6.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Deep-Learning6.png "image_tooltip")
+[![](https://rayxyz.github.io/assets/images/general/deep-learning-original-l2-validation-loss.png)](https://rayxyz.github.io/assets/images/general/deep-learning-original-l2-validation-loss.png)
 
 
 Developing a model that does better than a baseline
