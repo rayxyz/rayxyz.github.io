@@ -27,6 +27,16 @@ alter user ‘root’@’%’ identified by ‘xyz’;
 ```
 mysqladmin --user=root --password=root_old_password password "123456"
 ```
+> 对于MySQL8.x，有些地方有差别
+参考：
+
+[https://dev.mysql.com/doc/refman/8.0/en/grant.html](https://dev.mysql.com/doc/refman/8.0/en/grant.html)
+```
+drop user root@localhost;
+flush privileges;
+CREATE USER 'root'@'%' IDENTIFIED BY '123456';
+GRANT ALL ON *.* TO 'root'@'%';
+```
 
 登录MySQL服务器：
 
@@ -90,6 +100,7 @@ sudo ufw allow ssh
 ```
 grant all privileges on *.* to ‘root’@’127.0.0.1’ identified by ‘root’ with grant option
 ```
+> 注意：上面的命令在MySQL8.x下报错，请参考第2步或官方文档。
 
 最后，要想让其他任何机器连接MySQL服务器，修改mysql的bind-address配置：
 
@@ -124,6 +135,13 @@ bind-address现在绑定的是本机的环回接口127.0.0.1，要想让其他�
 ![](http://r.photo.store.qq.com/psb?/V11dEA6U3qTHQy/ACY81ZCjeF2CHBq.42e*NLv7o*R0ZEFN4ldjZpZv11Y!/o/dGkBAAAAAAAA&bo=LAMwASwDMAEDEDU!)
 
 如图，可以成功连接到远程MySQL服务器了。
+当链接MySQL8.x服务端时，会出现如下错误:
+
+解决办法是：
+```
+ALTER USER 'username'@'ip_address' IDENTIFIED WITH mysql_native_password BY '123456';
+```
+参考：[https://github.com/passbolt/passbolt_docker/issues/103](https://github.com/passbolt/passbolt_docker/issues/103)
 
 # 5. 参考资料
 [https://www.linux.com/blog/installing-and-using-mysql-ubuntu](https://www.linux.com/blog/installing-and-using-mysql-ubuntu)
