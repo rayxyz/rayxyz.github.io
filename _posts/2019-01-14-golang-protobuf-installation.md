@@ -43,6 +43,7 @@ export LD_LIBRARY_PATH=/usr/local/lib
 export PATH=$PATH:$GOPATH/bin
 
 alias xprotoc="/usr/local/bin/protoc -I=. --go_out=plugins=grpc:."
+alias remove_omitempty_tags="ls *.pb.go | xargs -n1 -IX bash -c 'sed s/,omitempty// X > X.tmp && mv X{.tmp,}'"
 ```
 
 # Write a proto file 
