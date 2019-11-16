@@ -15,12 +15,19 @@ netstat
 ```
 
 # 2. 安装
+```
 sudo apt-get install mysql-server
+```
 可以修改root用户的密码：
 ```
 alter user ‘root’@’%’ identified by ‘xyz’;
 ```
 其中‘%’表示连接到mysql服务器的所有机器，设置后将使用xyz作为登录密码。
+如果alter user这种方法不行，用mysqladmin修改:
+```
+mysqladmin --user=root --password=root_old_password password "123456"
+```
+
 登录MySQL服务器：
 
 ![](http://r.photo.store.qq.com/psb?/V11dEA6U3qTHQy/AtJZKlnExUAtw7yZ3yPA*..grf*gKaoWxDj85dDe*SM!/o/dG4BAAAAAAAA&bo=0AITAdACEwEDEDU!)
