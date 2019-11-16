@@ -29,7 +29,7 @@ mysqladmin --user=root --password=root_old_password password "123456"
 ```
 > 对于MySQL8.x，有些地方有差别
 参考：
-
+[https://dba.stackexchange.com/questions/210185/unsuccessfully-granting-privileges](https://dba.stackexchange.com/questions/210185/unsuccessfully-granting-privileges)
 [https://dev.mysql.com/doc/refman/8.0/en/grant.html](https://dev.mysql.com/doc/refman/8.0/en/grant.html)
 ```
 drop user root@localhost;
@@ -135,7 +135,9 @@ bind-address现在绑定的是本机的环回接口127.0.0.1，要想让其他�
 ![](http://r.photo.store.qq.com/psb?/V11dEA6U3qTHQy/ACY81ZCjeF2CHBq.42e*NLv7o*R0ZEFN4ldjZpZv11Y!/o/dGkBAAAAAAAA&bo=LAMwASwDMAEDEDU!)
 
 如图，可以成功连接到远程MySQL服务器了。
-当链接MySQL8.x服务端时，会出现如下错误:
+
+> 当链接MySQL8.x服务端时，会出现如下错误:
+![](https://rayxyz.github.io/assets/images/general/mysql8.x-connecting-problem-x.png)
 
 解决办法是：
 ```
