@@ -148,6 +148,10 @@ ALTER USER 'username'@'ip_address' IDENTIFIED WITH mysql_native_password BY '123
 ```
 参考：[https://github.com/passbolt/passbolt_docker/issues/103](https://github.com/passbolt/passbolt_docker/issues/103)
 
+
+# 5. 如何彻底卸载MySQL server
+[https://askubuntu.com/questions/640899/how-do-i-uninstall-mysql-completely](https://askubuntu.com/questions/640899/how-do-i-uninstall-mysql-completely)
+
 # 5. 参考资料
 [https://www.linux.com/blog/installing-and-using-mysql-ubuntu](https://www.linux.com/blog/installing-and-using-mysql-ubuntu)
 
