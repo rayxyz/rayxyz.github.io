@@ -33,11 +33,19 @@ mysqladmin --user=root --password=root_old_password password "123456"
 参考：
 [https://dba.stackexchange.com/questions/210185/unsuccessfully-granting-privileges](https://dba.stackexchange.com/questions/210185/unsuccessfully-granting-privileges)
 [https://dev.mysql.com/doc/refman/8.0/en/grant.html](https://dev.mysql.com/doc/refman/8.0/en/grant.html)
+
 ```
 drop user root@localhost;
 flush privileges;
 CREATE USER 'root'@'%' IDENTIFIED BY '123456';
 GRANT ALL ON *.* TO 'root'@'%';
+```
+
+> 查看用户相关信息
+```
+show databases;
+use mysql;
+select user, host from user;
 ```
 
 登录MySQL服务器：
@@ -147,7 +155,6 @@ bind-address现在绑定的是本机的环回接口127.0.0.1，要想让其他�
 ALTER USER 'username'@'ip_address' IDENTIFIED WITH mysql_native_password BY '123456';
 ```
 参考：[https://github.com/passbolt/passbolt_docker/issues/103](https://github.com/passbolt/passbolt_docker/issues/103)
-
 
 # 5. 如何彻底卸载MySQL server
 [https://askubuntu.com/questions/640899/how-do-i-uninstall-mysql-completely](https://askubuntu.com/questions/640899/how-do-i-uninstall-mysql-completely)
