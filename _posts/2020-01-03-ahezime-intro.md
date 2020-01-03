@@ -5,7 +5,7 @@ date: 2020-01-03 16:30 +0800
 categories: tech
 ---
 
-## 关于 Ahezime
+# 关于 Ahezime
 Ahezime.com是一个用户可以在上面写博客和发帖分享知识、传播正能量的博客和社区平台网站。
 平台前端基于响应式布局设计开发，能同时自适应PC端和移动端。
 
@@ -17,7 +17,7 @@ PC端首页：
 
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-index-mobile-not-log-in.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-index-mobile-not-log-in.png)
 
-## 注册 & 登录
+# 注册 & 登录
 为了能为用户便于使用平台和带来较好的体验，在使用平台前要先注册成为平台的用户，注册用户只需要一个您经常使用的有效电子邮箱。
 
 [马上注册->](https://ahezime.com/register)
@@ -27,15 +27,15 @@ PC端首页：
 [快速访问->](https://ahezime.com)
 
 
-### 注册
+## 注册
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-register.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-register.png)
 
-### 登录
+## 登录
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-login.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-login.png)
 
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-logging-in.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-logging-in.png)
 
-## 平台
+# 平台
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-general-arch.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-general-arch.png)
 
 平台系统在一开始就基于微服务(Microservice)架构开发，将传统的单一系统解耦成多个服务，每个服务负责实现平台中特定的功能；并且，每个服务可以启动多个实例，为平台的稳定、高性能运行提供最基础的保障。
@@ -55,33 +55,34 @@ PC端首页：
 Ahezime.com分前端网站和后端平台两部分。前端网站当前主要提供博客文章写作、社区互动和其他简单的信息查询。 后端平台主要提供用户的基本信息查看、修改和相应服务的复杂设置、分析，根据用户角色权限的不同决定用户可用的功能。后端平台尽量使用当前流行的新技术，使平台具备数据可视化，对繁杂的数据综合分析，进而做到化繁为简。
 
 
-### 服务器状态监控
+## 服务器状态监控
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-hardware-status-monistoring-local.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-hardware-status-monistoring-local.png)
 
 对服务器做了基本的硬件实时可视化状态监控，让管理员能实时查看服务器的运行状态，及时对紧急情况做出响应。
 
 
-### API访问频率控制
+## API访问频率控制
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-rate-limiting.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-rate-limiting.png)
 
 除了基本的状态监控，对于API攻击做了基本的访问频率控制，当用户恶意访问平台相关API时，如果超过设定的阀值，用户访问将会受到限制。
 
-### 进入平台
+## 进入平台
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-right-top-hover-menu.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-right-top-hover-menu.png)
 
-![https://rayxyz.github.io/assets/images/ahezime/ahezime-menu-mobile.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-menu-mobile.png)
+如上图，登录后将鼠标悬停在首页的右上角用户头像上，弹出菜单，点击`平台`即可。
 
-### 平台首页
+## 平台首页
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-index.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-index.png)
 
-### 修改个人信息
+平台首页展示当前登录用户的基本信息和用户平台使用的关键信息。
+
+## 修改个人信息
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-edit-user-info.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-edit-user-info.png)
 
+用户可以到`设置->用户设置`来更新或完善用户信息。
 
-
-## 博客
+# 博客
 ### 博客首页
-
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-index-page.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-index-page.png)
 
 
@@ -90,7 +91,7 @@ Ahezime.com分前端网站和后端平台两部分。前端网站当前主要提
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-post-index-mobile.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-post-index-mobile.png)
 
 
-### 博客文章详情
+## 博客文章详情
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-details-page.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-details-page.png)
 
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-details-page-comments-section.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-details-page-comments-section.png)
@@ -103,14 +104,26 @@ Ahezime.com分前端网站和后端平台两部分。前端网站当前主要提
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-post-details-comments-section-mobile.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-post-details-comments-section-mobile.png)
 
 
-### 写文章
+## 写文章
+
+用户可以自由在平台上写博客文章，文章内容为markdown格式，如果堆markdown格式不熟悉，可参考
+
+英文 [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+中文 [https://www.markdown.cn/](https://www.markdown.cn/)
+
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-post-edit-show-settings.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-post-edit-show-settings.png)
+
+文章写作界面（显示先关设置）。
 
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-post-edit-not-showing-settings.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-post-edit-not-showing-settings.png)
 
+文章写作界面（隐藏相关设置）。
 
 
-## 社区
+# 社区
+社区为平台上用户间互动的最重要纽带，用户可以分享任何（法律范围内）想要分享的新闻、知识、经验等等。用户可以点赞、收藏、转发、评论社区帖子和回复其他用户。
+
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-community-index-page.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-community-index-page.png)
 
 
@@ -120,13 +133,13 @@ Ahezime.com分前端网站和后端平台两部分。前端网站当前主要提
 
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-community-index-loadmore-mobile.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-community-index-loadmore-mobile.png)
 
-### 帖子详情
+## 帖子详情
 ![https://rayxyz.github.io/assets/images/ahezimeahezime-community-post-details.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-community-post-details.png)
 
 ![https://rayxyz.github.io/assets/images/ahezime-community-post-details-page-comments-section.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-community-post-details-page-comments-section.png)
 
 
-### 发帖
+## 发帖
 ![https://rayxyz.github.io/assets/images/ahezime-community-post-edit.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-community-post-edit.png)
 
 
