@@ -20,6 +20,8 @@ categories: tech
 ## 平台
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-right-top-hover-menu.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-right-top-hover-menu.png)
 
+![https://rayxyz.github.io/assets/images/ahezime/ahezime-menu-mobile.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-menu-mobile.png)
+
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-index.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-index.png)
 
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-rate-limiting.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-rate-limiting.png)
@@ -35,17 +37,22 @@ categories: tech
 ## 博客
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-index-page.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-index-page.png)
 
-![https://rayxyz.github.io/assets/images/ahezime/ahezime-post-index-mobile.jpg](https://rayxyz.github.io/assets/images/ahezime/ahezime-post-index-mobile.jpg)
+![https://rayxyz.github.io/assets/images/ahezime/ahezime-index-mobile-not-log-in.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-index-mobile-not-log-in.png)
 
-![https://rayxyz.github.io/assets/images/ahezime/ahezime-post-details-mobile.jpg](https://rayxyz.github.io/assets/images/ahezime/ahezime-post-details-mobile.jpg)
+![https://rayxyz.github.io/assets/images/ahezime/ahezime-post-index-mobile.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-post-index-mobile.png)
+
 
 ### 博客文章详情
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-details-page.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-details-page.png)
 
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-details-page-comments-section.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-details-page-comments-section.png)
 
-### 写文章
+![https://rayxyz.github.io/assets/images/ahezime/ahezime-post-details-mobile.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-post-details-mobile.png)
 
+![https://rayxyz.github.io/assets/images/ahezime/ahezime-post-details-comments-section-mobile.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-post-details-comments-section-png.jpg)
+
+
+### 写文章
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-post-edit-show-settings.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-post-edit-show-settings.png)
 
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-post-edit-not-showing-settings.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-post-edit-not-showing-settings.png)
@@ -55,12 +62,17 @@ categories: tech
 ## 社区
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-community-index-page.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-community-index-page.png)
 
+![https://rayxyz.github.io/assets/images/ahezime/ahezime-community-index-mobile.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-community-index-mobile.png)
+
+![https://rayxyz.github.io/assets/images/ahezime/ahezime-community-index-loadmore-mobile.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-community-index-loadmore-mobile.png)
+
 ### 帖子详情
 ![https://rayxyz.github.io/assets/images/ahezimeahezime-community-post-details.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-community-post-details.png)
 
 ![https://rayxyz.github.io/assets/images/ahezime-community-post-details-page-comments-section.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-community-post-details-page-comments-section.png)
 
+
 ### 发帖
 ![https://rayxyz.github.io/assets/images/ahezime-community-post-edit.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-community-post-edit.png)
 
-## 平台
+![https://rayxyz.github.io/assets/images/ahezime-post-community-post-mobile.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-post-community-post-mobile.png)
