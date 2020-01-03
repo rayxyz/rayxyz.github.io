@@ -17,6 +17,21 @@ categories: tech
 
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-logging-in.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-logging-in.png)
 
+## 平台
+![https://rayxyz.github.io/assets/images/ahezime/ahezime-right-top-hover-menu.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-right-top-hover-menu.png)
+
+![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-index.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-index.png)
+
+![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-rate-limiting.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-rate-limiting.png)
+
+![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-dashboard.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-dashboard.png)
+
+![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-devops-service-status.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-devops-service-status.png)
+
+![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-devops-service-status-service-instance-status.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-devops-service-status-service-instance-status.png)
+
+![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-hardware-status-monistoring-local.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-hardware-status-monistoring-local.png)
+
 ## 博客
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-index-page.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-index-page.png)
 
