@@ -6,11 +6,27 @@ categories: tech
 ---
 
 ## 关于 Ahezime
+Ahezime.com是一个用户可以在上面写博客和发帖分享知识、传播正能量的博客和社区平台网站。
+平台前端基于响应式布局设计开发，能同时自适应PC端和移动端。
+
+PC端首页：
+
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-index.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-index.png)
+
+移动端首页：
 
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-index-mobile-not-log-in.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-index-mobile-not-log-in.png)
 
 ## 注册 & 登录
+为了能为用户便于使用平台和带来较好的体验，在使用平台前要先注册成为平台的用户，注册用户只需要一个您经常使用的有效电子邮箱。
+
+[马上注册->](https://ahezime.com/register)
+
+[快速登录->](https://ahezime.com/login)
+
+[快速访问->](https://ahezime.com)
+
+
 ### 注册
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-register.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-register.png)
 
@@ -20,6 +36,10 @@ categories: tech
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-logging-in.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-logging-in.png)
 
 ## 平台
+Ahezime.com分前端网站和后端平台两部分。前端网站当前主要提供博客文章写作、社区互动和其他简单的信息查询。 后端平台主要提供用户的基本信息查看、修改和相应服务的复杂设置、分析，根据用户角色权限的不同决定用户可用的功能。后端平台尽量使用当前流行的新技术，使平台具备数据可视化，对繁杂的数据综合分析，进而做到化繁为简。
+
+平台系统在一开始就基于微服务(Microservice)架构开发，将传统的单一系统解耦成多个服务，每个服务负责实现平台中特定的功能；并且，每个服务可以启动多个实例，为平台的稳定、高性能运行提供最基础的保障。
+
 ### 进入平台
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-right-top-hover-menu.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-right-top-hover-menu.png)
 
