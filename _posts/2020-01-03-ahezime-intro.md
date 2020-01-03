@@ -35,6 +35,10 @@ categories: tech
 ## 博客
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-index-page.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-index-page.png)
 
+![https://rayxyz.github.io/assets/images/ahezime/ahezime-post-index-mobile.jpg](https://rayxyz.github.io/assets/images/ahezime/ahezime-post-index-mobile.jpg)
+
+![https://rayxyz.github.io/assets/images/ahezime/ahezime-post-details-mobile.jpg](https://rayxyz.github.io/assets/images/ahezime/ahezime-post-details-mobile.jpg)
+
 ### 博客文章详情
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-details-page.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-details-page.png)
 
