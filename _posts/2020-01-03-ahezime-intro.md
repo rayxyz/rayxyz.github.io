@@ -34,26 +34,31 @@ PC首页显示：
 
 
 # 平台
+
+## 平台架构
+
+#### 总体架构
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-general-arch.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-general-arch.png)
 
 平台系统在一开始就基于微服务(Microservice)架构开发，将传统的单一系统解耦成多个服务，每个服务负责实现平台中特定的功能；并且，每个服务可以启动多个实例，为平台的稳定、高性能运行提供最基础的保障。
 
+#### 详细架构
+![https://rayxyz.github.io/assets/images/ahezime/ahezime-general-arch-details.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-general-arch-details.png)
+
 平台由Nginx作为暴露在网络上的前端、平台API Gateway(API网关)、服务注册和服务发现中心（Agenble）、服务这几个大块组成。
 
-#### Nginx
+###### Nginx
 Nginx负责静态内容资源文件服务和整合HTTPS保护用户内容安全
 
-#### 服务注册和发现中心Agenble
+###### 服务注册和发现中心Agenble
 Agenble是自主开发的微服务注册和发现中心服务，当服务进程启动后会主动注册中Agenble，Agenble在服务注册完成后会发送TCP连接请求来做服务健康检查（Health Check），当检测到服务不在线是，主动移除注册的服务，保证服务的可用性。已注册服务也会主动向Agenble发送心跳，当服务被Agenble移除后，Agenble会根据服务的心跳来再次注册服务。这样的Agenble和服务间的双向互动在最大程度上保证服务的高靠用性。
 
-#### 平台API网关
+###### 平台API网关
 负责反向代理（Reverse Proxy）、负载均衡（LB: LoadBalancing）、rate limiting、权限验证和API统计分析等。
 
 API网关提供反向代理和负载均衡的服务——API网关定时请求Agenble服务注册中心，当得知注册中心的服务发生变更时及时更新本地缓存的服务信息，并根据服务发送给注册中的心跳信息，找到最优的服务作为下次服务客户端的服务，高效地响应客户端的请求。
 
-
-#### Dashboard
-![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-dashboard.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-dashboard.png)
+## 平台状态
 
 #### 运行的服务状态
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-devops-service-status.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-devops-service-status.png)
@@ -75,16 +80,21 @@ Ahezime.com分前端网站和后端平台两部分。前端网站当前主要提
 * 代码示例
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-ahzprocess-code-show.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-ahzprocess-code-show.png)
 
+#### Dashboard
+![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-dashboard.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-dashboard.png)
+
 #### 服务器状态监控
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-hardware-status-monistoring-local.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-hardware-status-monistoring-local.png)
 
 对服务器做了基本的硬件实时可视化状态监控，让管理员能实时查看服务器的运行状态，及时对紧急情况做出响应。
 
+## 平台安全
 
 #### API访问频率控制
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-rate-limiting.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-rate-limiting.png)
 
 除了基本的状态监控，对于API攻击做了基本的访问频率控制，当用户恶意访问平台相关API时，如果超过设定的阀值，用户访问将会受到限制。
+
 
 ## 进入平台
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-right-top-hover-menu.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-right-top-hover-menu.png)
