@@ -38,6 +38,20 @@ PC首页显示：
 
 平台系统在一开始就基于微服务(Microservice)架构开发，将传统的单一系统解耦成多个服务，每个服务负责实现平台中特定的功能；并且，每个服务可以启动多个实例，为平台的稳定、高性能运行提供最基础的保障。
 
+平台由Nginx作为暴露在网络上的前端、平台API Gateway(API网关)、服务注册和服务发现中心（Agenble）、服务这几个大块组成。
+
+#### Nginx
+Nginx负责静态内容资源文件服务和整合HTTPS保护用户内容安全
+
+#### 服务注册和发现中心Agenble
+Agenble是自主开发的微服务注册和发现中心服务，当服务进程启动后会主动注册中Agenble，Agenble在服务注册完成后会发送TCP连接请求来做服务健康检查（Health Check），当检测到服务不在线是，主动移除注册的服务，保证服务的可用性。已注册服务也会主动向Agenble发送心跳，当服务被Agenble移除后，Agenble会根据服务的心跳来再次注册服务。这样的Agenble和服务间的双向互动在最大程度上保证服务的高靠用性。
+
+#### 平台API网关
+负责反向代理（Reverse Proxy）、负载均衡（LB: LoadBalancing）、rate limiting、权限验证和API统计分析等。
+
+API网关提供反向代理和负载均衡的服务——API网关定时请求Agenble服务注册中心，当得知注册中心的服务发生变更时及时更新本地缓存的服务信息，并根据服务发送给注册中的心跳信息，找到最优的服务作为下次服务客户端的服务，高效地响应客户端的请求。
+
+
 #### Dashboard
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-dashboard.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-dashboard.png)
 
@@ -49,13 +63,17 @@ PC首页显示：
 
 Ahezime.com分前端网站和后端平台两部分。前端网站当前主要提供博客文章写作、社区互动和其他简单的信息查询。 后端平台主要提供用户的基本信息查看、修改和相应服务的复杂设置、分析，根据用户角色权限的不同决定用户可用的功能。后端平台尽量使用当前流行的新技术，使平台具备数据可视化，对繁杂的数据综合分析，进而做到化繁为简。
 
-#### 服务进程状态
+#### 服务进程(服务实例)管理
+为了实现服务进程生命周期的完全控制，自主研发ahzprocess服务进程管理工具。
 
+* 服务进程管理工具系统服务状态
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-ahzprocess-system-service-status.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-ahzprocess-system-service-status.png)
 
-为了实现服务进程生存周期的完全控制，自主研发ahzprocess服务进程管理工具。
+* 查看服务进程状态
+![https://rayxyz.github.io/assets/images/ahezime/ahezime-ahzprocessctl-service-instances-status.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-ahzprocessctl-service-instances-status.png)
 
-#### 代码
+* 代码示例
+![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-ahzprocess-code-show.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-ahzprocess-code-show.png)
 
 #### 服务器状态监控
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-hardware-status-monistoring-local.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-hardware-status-monistoring-local.png)
