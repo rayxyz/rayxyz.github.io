@@ -107,7 +107,7 @@ Ahezime.com分前端网站和后端平台两部分。前端网站当前主要提
 
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-post-edit-show-settings.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-post-edit-show-settings.png)
 
-文章写作界面（显示先关设置）。
+文章写作界面（显示相关设置）。
 
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-post-edit-not-showing-settings.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-post-edit-not-showing-settings.png)
 
