@@ -49,6 +49,13 @@ PC首页显示：
 
 Ahezime.com分前端网站和后端平台两部分。前端网站当前主要提供博客文章写作、社区互动和其他简单的信息查询。 后端平台主要提供用户的基本信息查看、修改和相应服务的复杂设置、分析，根据用户角色权限的不同决定用户可用的功能。后端平台尽量使用当前流行的新技术，使平台具备数据可视化，对繁杂的数据综合分析，进而做到化繁为简。
 
+#### 服务进程状态
+
+![https://rayxyz.github.io/assets/images/ahezime/ahezime-ahzprocess-system-service-status.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-ahzprocess-system-service-status.png)
+
+为了实现服务进程生存周期的完全控制，自主研发ahzprocess服务进程管理工具。
+
+#### 代码
 
 #### 服务器状态监控
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-hardware-status-monistoring-local.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-hardware-status-monistoring-local.png)
