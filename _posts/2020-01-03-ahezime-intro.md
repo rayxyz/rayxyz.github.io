@@ -48,7 +48,7 @@ PC首页显示：
 平台由Nginx作为暴露在网络上的前端、平台API Gateway(API网关)、服务注册和服务发现中心（Agenble）、服务这几个大块组成。
 
 ###### Nginx
-Nginx负责静态内容资源文件服务和整合HTTPS保护用户内容安全。
+Nginx负责静态内容资源文件服务和整合HTTPS保护内容网络传输安全。
 
 ###### 服务注册和服务发现中心Agenble
 Agenble是自主开发的微服务注册和服务发现中心中间件。当服务进程启动后会主动注册到Agenble，Agenble在服务注册完成后会发送TCP连接请求来做服务健康检查（Health Check），当检测到服务不在线时，主动移除注册的服务，保证服务的可用性。已注册服务也会主动向Agenble发送心跳，当服务被Agenble移除后，Agenble会根据服务的心跳来确定是否注册服务。这样，Agenble和服务间的双向互动在最大程度上保证服务的高可用性。
@@ -77,8 +77,62 @@ Ahezime.com分前端网站和后端平台两部分。前端网站当前主要提
 * 查看服务进程状态
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-ahzprocessctl-service-instances-status.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-ahzprocessctl-service-instances-status.png)
 
-* 代码示例
-![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-ahzprocess-code-show.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-ahzprocess-code-show.png)
+> 代码示例
+
+``` go
+// Start service process :
+func (ps *ProcessService) start(svc *ProcessService) (*os.Process, error) {
+	ps.Lock()
+	defer ps.Unlock()
+
+	logFile, err := os.OpenFile(svc.LogFilePath, os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0666)
+	if err != nil {
+		log.Fatal(err)
+	}
+	logErrFile, err := os.OpenFile(svc.LogErrFilePath, os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0666)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	svc.LogFile = logFile // put log file to process service
+	svc.LogErrFile = logErrFile
+
+	procAttr := &os.ProcAttr{
+		// Files: []*os.File{os.Stdin, os.Stdout, os.Stderr},
+		Files: []*os.File{nil, svc.LogFile, svc.LogErrFile},
+		Sys: &syscall.SysProcAttr{
+			Setpgid: true,
+		},
+	}
+
+	ip := network.GetOutboundIP().String()
+	// We obtain network port here to avoid port resource race condition.
+	port, err := network.ObtainAvailablePort(20000, 30000)
+	if err != nil {
+		log.Errorf("start process error, service name => %s, exiting...", svc.Name)
+		syscall.Kill(os.Getpid(), syscall.SIGKILL)
+	}
+	args := []string{svc.BinPath, svc.Name, ip, strconv.Itoa(port)}
+	log.Infof("start process of service %s", svc.Name)
+	proc, err := os.StartProcess(svc.BinPath, args, procAttr)
+	if err != nil {
+		log.Error(err)
+		svc.LogFile.Close()
+		svc.LogErrFile.Close()
+		if proc != nil {
+			proc.Kill()
+			return nil, err
+		}
+	}
+	svc.Process = proc
+	svc.StartTime = time.Now()
+	serviceMap[svc.Name] = svc
+
+	log.Info("process started")
+
+	return proc, nil
+}
+```
 
 #### Dashboard
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-dashboard.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-dashboard.png)
