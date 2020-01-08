@@ -54,7 +54,7 @@ Nginx负责静态内容资源文件服务和整合HTTPS保护内容网络传输�
 Agenble是自主开发的微服务注册和服务发现中心中间件。当服务进程启动后会主动注册到Agenble，Agenble在服务注册完成后会发送TCP连接请求来做服务健康检查（Health Check），当检测到服务不在线时，主动移除注册的服务，保证服务的可用性。已注册服务也会主动向Agenble发送心跳，当服务被Agenble移除后，Agenble会根据服务的心跳来确定是否注册服务。这样，Agenble和服务间的双向互动在最大程度上保证服务的高可用性。
 
 #### 平台API网关
-负责反向代理（Reverse Proxy）、负载均衡（LB: LoadBalancing）、rate limiting、权限验证和API统计分析等。
+负责反向代理（Reverse Proxy）、负载均衡（LB: Load Balancing）、Rate Limiting、权限验证和API统计分析等。
 
 API网关提供反向代理和负载均衡的服务——API网关定时请求Agenble服务注册中心，拉取已注册服务的实时信息，当得知注册中心的服务发生变更时，及时更新本地缓存的服务信息，并根据服务发送给注册中的心跳信息，找到最优的服务为下次客户端请求服务，高效地响应客户端的请求。
 
