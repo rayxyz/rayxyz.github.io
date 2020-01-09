@@ -140,7 +140,7 @@ func (ps *ProcessService) start(svc *ProcessService) (*os.Process, error) {
 #### 服务器状态监控
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-hardware-status-monistoring-local.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-platform-hardware-status-monistoring-local.png)
 
-对服务器做了基本的硬件实时可视化状态监控，让管理员能实时查看服务器的运行状态，及时对紧急情况做出响应。
+对服务器做了基本的硬件实时可视化状态监控，让运维人员能实时查看服务器的运行状态，及时对紧急情况做出响应。
 
 ## 平台安全
 
