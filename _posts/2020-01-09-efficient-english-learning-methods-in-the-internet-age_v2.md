@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "互联网时代的高效英语学习"
+title: "互联网时代的高效英语学习v2"
 date: 2018-09-29 14:00 +0800
 categories: eng
 ---
@@ -152,36 +152,37 @@ Jump -> hop -> leap
 5. 所选书目的内容要有一定的深度。
 
 **推介一些书 & 杂志**
+```
+Gone with the Wind
 
-*Gone with the Wind*
+War and Peace
 
-*War and Peace*
+On the Road
 
-*On the Road*
+The Glass Castle
 
-*The Glass Castle*
+The Old Man and The Sea
 
-*The Old Man and The Sea*
+A Farewell to Arms
 
-*A Farewell to Arms*
+The Waden
 
-*The Waden*
+MAN’S SEARCH FOR MEANING
 
-*MAN’S SEARCH FOR MEANING*
+Sapiens: A Brief History of Humankind
 
-*Sapiens: A Brief History of Humankind*
+A Global History: From Prehistory to the 21st Century
 
-*A Global History: From Prehistory to the 21st Century*
+The Richest Man in Babylon
 
-*The Richest Man in Babylon*
+The Illustrated Bible Story by Story
 
-*The Illustrated Bible Story by Story*
+The best American essays
 
-*The best American essays*
+The National Geographics
 
-*The National Geographics*
-
-*The New Yorker*
+The New Yorker
+```
 
 ## 写作
 ***适用方法：持久战法、生活方式法、实践法***
@@ -193,28 +194,27 @@ Jump -> hop -> leap
 在英文写作时，我最常用的时Google Docs，如果会翻墙那么用Google Docs会有很大的帮助。它和Office Word相似，但是完全运行在云端，只要有网络，到哪里都可以写作。Google Docs还提供插件、语法及拼写错误检测等。
 
 Google Docs插件批改、分析：
-
-![]()
+![https://rayxyz.github.io/assets/images/englearning20180-09-26/odyssey-dreaming-summary-report.png](https://rayxyz.github.io/assets/images/englearning20180-09-26/odyssey-dreaming-summary-report.png)
 
 Grammarly批改、分析：
-
-![]()
+![https://rayxyz.github.io/assets/images/englearning20180-09-26/odyssey-dreaming-grammary-performance.png](https://rayxyz.github.io/assets/images/englearning20180-09-26/odyssey-dreaming-grammary-performance.png)
 
 其实用什么来写作不重要，只要能符合自己需求就OK了。只不过在计算机上写作，文字容易编辑和修改，并且可以无限复制与分享。日常写日记的话，推介Google Docs（如果可以翻墙），容易上手，文件安全有保障，并且可以永久保存。也可以将写好的文章、日记保存到有道云笔记或QQ日志，或其他博客平台。Google Docs提供了简单的语法检查，如果要分析写作内容的好坏，可以添加语法插件来进行详细的分析；也可以用专业的语法检测工具Grammarly来分析，条件允许的话最好给英语为母语的专业人士批改、分析。
 
 由于在学校里我们绝大部分都没有接受过系统性的英语写作训练，写起文章来感觉无法下手，不知道要用什么体裁、语句格式，标点符号怎么用，如何分段、总结等等。要想彻底杜绝写作中的一些基本性的问题，系统性的学习英语写作是极其重要的。
 
-在我以前的写作学习中，我使用了外研社出版的《美国大学英语写作(第6版)》(College Writing with Reading)这本书。边学习本书边练习，我在英语写作的初期以本书作为指导，对一些写作不在那么畏惧和迷茫。
-成语/俚语/idioms
-适用方法：碎片法、实践法
+在我以前的写作学习中，我使用了外研社出版的《美国大学英语写作(第6版)》(*College Writing with Reading*)这本书。边学习本书边练习，我在英语写作的初期以本书作为指导，对一些写作不在那么畏惧和迷茫。
+
+## 成语/俚语/idioms
+***适用方法：碎片法、实践法**
 
 在阅读中，我们常常会发现我们知道单个词的固定意思，但是有些很简单的词放在一起就懵逼了，完全不知道作者想要表达什么东西。比如be made of,  take off, let down, go up, make up这些正式、常见的；还有像an apple a day keeps the doctor away, can’t see the forest for the trees这些口语化的；还有像de facto, pro bono, Achilles’ heel, Trojan horse等这些拉丁和希腊词组或成语。我们在电影和电视剧中经常会碰到俚语，如果在之前不认识这些俚语，那么基本听不懂演员们在说什么，所以对一些电影、电视剧常的俚语，比如fuck up, fuck off等要掌握。
 
-在成语学习方面推介A DICTIONARY  OF AMERICAN IDIOMS这本书，可以当做成语词典来用，也可以用来进行微阅读。日常阅读中的一些不认识成语或短语可以在这本书中找到解析。
+在成语学习方面推介*A DICTIONARY  OF AMERICAN IDIOMS*这本书，可以当做成语词典来用，也可以用来进行微阅读。日常阅读中的一些不认识成语或短语可以在这本书中找到解析。
 
 
-口语
-适用方法：持久战法、碎片法、生活方式法、实践法
+## 口语
+***适用方法：持久战法、碎片法、生活方式法、实践法***
 
 在所有的英语学习中，口语对中国人来说应该是最困难的部分了。因为缺少语言环境，又有一堵墙挡着，无形中对英语口语的提高增加了不少障碍。
 
@@ -224,43 +224,42 @@ Grammarly批改、分析：
 
 在纠正发音的同时训练口语表达，可以通过以下方式练习：
 
-自己跟自己对话。
-每天给自己一段时间自由表达，内容任意，并同时将表达的内容录下来，随后在从头到尾的听一遍，留意表达中的发音、语法准确性、语速、用词、表达的连贯性等，在每一次的自由表达时，尽量规避上一次的问题。
-多看英语为母语的人的演讲或日常表达视频，并思考和模仿。我也推荐英语为非母语但英语表达能力不错的人的视频，因为他们和我们英语学习者有很多共同之处，在看视频时观察他们是怎么表达的，主要时面部表情、肢体动作、用词和语气等。
-和身边的其他英语学习同学交流，如果能进行深度交流那就太好了，深度的表达能极大的让我们专注，充分调动我们所累积的知识库，对表达能力的提高是最有效的。多看Talk Show并模仿之。
+1. 自己跟自己对话。
+2. 每天给自己一段时间自由表达，内容任意，并同时将表达的内容录下来，随后在从头到尾的听一遍，留意表达中的发音、语法准确性、语速、用词、表达的连贯性等，在每一次的自由表达时，尽量规避上一次的问题。
+3. 多看英语为母语的人的演讲或日常表达视频，并思考和模仿。我也推荐英语为非母语但英语表达能力不错的人的视频，4. 因为他们和我们英语学习者有很多共同之处，在看视频时观察他们是怎么表达的，主要时面部表情、肢体动作、用词和语气等。
+5. 和身边的其他英语学习同学交流，如果能进行深度交流那就太好了，深度的表达能极大的让我们专注，充分调动我们所累积的知识库，对表达能力的提高是最有效的。多看Talk Show并模仿之。
 
 在口语中，稍微有点口音没多大问题，表达能力是最重要的。良好的表达能力是个人综合素质的体现，不只是单纯的英语口语的流利程度，因为表达能力涉及到个人的生活经验、知识储备、认知等，所以要提高表达能力就要在其他涉及这样的经历，在看电影或Talk Show时，我们听不懂里面的人在说什么，但当我们打开字幕时，发现原来是一句非常简单的话。你有没有想过为什么简单的对话也听不懂呢？其实这是发音能力不足造成的，比如对连读、不发音、长短元音等发音规则掌握的不好或以前没有这方面的训练到的方面也要提升。
 翻译？
 如果只是单纯的学习和使用英语这个工具，根本就没必要搞什么翻译这个部分，除非你要成为翻译人员。给我的感觉是中英互译有时会起到反作用，不但提高不了英文水平，有时候是一种阻碍，因为在翻译时会用到中文式思维，这在学习英文时是大忌。大家都是听说读写译，其中译是最不需要去刻意练习的，但你达到一定水平后，翻译自然就会上去。
 
-工具 & 平台
+# 工具 & 平台
 
-电子词典
+## 电子词典
 在学习过程中我们会遇到很多生词，一部好的电子词典能减少我们查找生词的时间和精力，让我们更加专注于学习本身。电子词典本身不存在携带问题，走到哪都可以轻松查阅。从几年前开始我只用伟氏电子词典(Merriam-Webster)来查单词。首先是韦氏的，内容有保证；二是词典对单词的解释比较详细，还有各种例句，近义词、反义词，单词起源等等。第三，词典中可以标记已查词汇，便于以后回顾和查阅。
 
-
+![https://rayxyz.github.io/assets/images/englearning20180-09-26/merriam-webster-digital-dict-min.png](https://rayxyz.github.io/assets/images/englearning20180-09-26/merriam-webster-digital-dict-min.png)
 
 特别是对于上班族来说，上下班挤公交、地铁时我们可以掏出手机阅读一些纯英文的时事新闻、文章或小说；在阅读过程中肯定会碰到很多不认识的单词，此时手机上的电子词典就是最理想的查询工具。
 
-YouTube
+## YouTube
 我个人觉得最有效提高英语发音和听力理解的地方就是YouTube了，没有其他平台能和它比较。YouTube上面不计其数的视频资源绝大部分都是英文；当然，能有效提高听力水平的前提是要能看懂，连看都看不懂，就别提听了。因为我们的母语不是英文，没有语言环境，想要听得懂首先得看得懂。在看得懂、口语发音也没多大问题的基础上来看YouTube视频，那么将会收到事半功倍的效果。
 
 以我个人为例吧，在5年前，想要看懂TED视频是基本不可能的，只能看得懵懵懂懂。后来用英语学英语，阅读大量的英文原著，慢慢地我的阅读能力得到了特别大的提升。加之，在提高阅读能力的过程中，刻意去查找生词并练习和改进发音。3年以后，也就是两年前，我基本能毫无压力地看懂TED视频。但是，要看懂或听懂Youtube上的各种题材的视频还是有一定难度的，因为YouTube上的视频是全球用户上传的，就有各种口音：美音、英音、欧洲口音、印度口音、非洲口音等等......；总之，各种口音层出不穷。在这么多口音的饱和攻击下，我崩溃啦。然而，YouTube上的视频是很有趣的，听不懂没关系，当作是看休闲视频，没必要刻意去听清每一个音节。在YouTube上看了一段时间的视频后，我发觉我的听力水平上了好几个台阶——不仅能分别出各种口音，也不在留意口音，重要的是能听懂说话人要表达的意思。到现在，YouTube上的视频对我来说都是小意思了，除了特别专业和有许多俚语的视频外，其他都没有能难得到我的了。
 
 YouTube不只是个视频站点，我觉得更重要的时它是我们这个时代的一个知识分享的最重要的平台。等英语水平上去了，就可以轻松观看上面的公开课、技术分享视频、各种发布会、直播等，带你进入到一个真正开放思维世界，各种思想的碰撞，让你生活不在无聊。在有趣的视频中学习，这是学习知识、提高技能的最好的方式，可惜这个站点被和谐了。
 
-WordPress
+## WordPress
 有各种页面模板可供选择，是个十分强大的博客平台，拖拖拉拉就能搭建属于自己的博客站点。
 
-Medium
+## Medium
 国外比较热的博客平台，可以创建出版站点，还可以写文章赚钱，需要翻墙才能访问到。
+![https://rayxyz.github.io/assets/images/englearning20180-09-26/medium.png](https://rayxyz.github.io/assets/images/englearning20180-09-26/medium.png)
 
-
-
-Github Pages
+## Github Pages
 搞IT的应该都知道Github这个代码托管平台。知道可以利用Github来搭建完全免费的blog站点的人士应该不是太多。借助Github Pages，你可以将文章和资料分发到上面去，还可以选择自己喜欢的站点模板。
 
-Grammarly
+## Grammarly
 这个工具我在前面提到过了，Grammarly是一个提供英文语法及错误检测服务网站，有些高级功能要付费，但我觉得免费的服务就满足日常的写作了。有时候我们自我感觉写的东西很完美，不会有明显语法错误、单词拼写问题等，直到grammarly上已检测，发现很多低级语法错误。基本的语法、拼写检查对于新手和老鸟都适用。
 
 
