@@ -9,7 +9,7 @@ categories: tech
 Ahezime.com是一个用户可以在上面写博客和发帖分享知识、传播正能量的博客和社区平台网站。
 平台前端基于响应式布局设计开发，能同时自适应PC端和移动端。
 
-PC首页显示：
+#### PC首页显示
 
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-index.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-index.png)
 
