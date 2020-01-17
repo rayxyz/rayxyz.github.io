@@ -165,6 +165,10 @@ func (ps *ProcessService) start(svc *ProcessService) (*os.Process, error) {
 
 用户可以到`设置->用户设置`来更新或完善用户信息。
 
+# 用户主页
+用户主页显示用户的简介信息，用户写作的博客文章、帖子和收藏。用户可以到`平台->我的`管理`我的主页`
+![https://rayxyz.github.io/assets/images/ahezime/ahezime-user-homepage.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-user-homepage.png)
+
 # 博客
 ## 博客首页
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-index-page.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-blog-index-page.png)
