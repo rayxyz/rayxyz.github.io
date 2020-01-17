@@ -4,7 +4,7 @@ title: "Java泛型擦除机制之答疑解惑"
 date: 2016-01-24 05:34 +0800
 ---
 
-[Puzzling Through Erasure: answer section](https://173.255.140.16/browse.php?u=IoYlf8YVA63YfYZfOrB1xsoPpxvc775nDYsLdd%2BvxQ4YMnzT2k8XEpfgweJEhszfT07yE6LRUI4HMMRfwux28D4g2w%3D%3D&b=14)
+[Puzzling Through Erasure: answer section](http://gafter.blogspot.com/2004/09/puzzling-through-erasure-answer.html)
 
 Author: Neal Gafter (One of the Lead developers for Java SE5)
 
