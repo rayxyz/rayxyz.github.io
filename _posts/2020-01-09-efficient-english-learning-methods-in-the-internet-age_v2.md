@@ -265,5 +265,6 @@ YouTube不只是个视频站点，我觉得更重要的时它是我们这个时�
 
 
 ## Ahezime
+![https://rayxyz.github.io/assets/images/englearning20180-09-26/ahezime-ad-show-pic.jpg](https://rayxyz.github.io/assets/images/englearning20180-09-26/ahezime-ad-show-pic.jpg)
 
 Ahezime(Ahezime.com)是一个开放的博客和社区平台网站，在那您可以发表自己的文章和评论，可以写英文博客和发贴，与其他用户交流，来全面提高自己的英文水平。
