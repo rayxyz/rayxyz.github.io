@@ -7,12 +7,16 @@ categories: tech
 
 ## 前言
 
+Ahezime平台地址: [https://ahezime.com](https://ahezime.com)
+
 ## 总体架构
+
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-general-arch.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-general-arch.png)
 
 平台系统在一开始就基于微服务(Microservice)架构开发，将传统的单一系统解耦成多个服务，每个服务负责实现平台中特定的功能；并且，每个服务可以启动多个实例，为平台的稳定、高性能运行提供最基础的保障。
 
 ## 详细架构
+
 ![https://rayxyz.github.io/assets/images/ahezime/ahezime-general-arch-details.png](https://rayxyz.github.io/assets/images/ahezime/ahezime-general-arch-details.png)
 
 平台由Nginx作为暴露在网络上的前端、平台API Gateway(API网关)、服务注册和服务发现中心（Agenble）、服务这几个大块组成。
