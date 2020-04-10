@@ -1,9 +1,26 @@
 ---
 layout: post
-title: "Ubuntu Linux 下 USB Wi-Fi 驱动安装"
-date: 2020-01-17 23:14 +0800
+title: "Ubuntu Linux 下 USB Wi-Fi 适配器驱动安装"
+date: 2020-04-10 13:01 +0800
 categories: tech
 ---
+
+## Before
+When I download the official Tenda U12 USB Wi-Fi Adapter linux driver, I cannot compile the driver, it always says:
+```
+Authentication requested [root] for make driver:
+make ARCH=x86_64 CROSS_COMPILE= -C /lib/modules/4.15.0-50-generic/build M=/home/ray/softs/U12_linux_v5.1.5_19247.20160830/driver/rtl8812AU_linux_v5.1.5_19247.20160830  modules
+make[1]: Entering directory '/usr/src/linux-headers-4.15.0-50-generic'
+arch/x86/Makefile:245: *** You are building kernel with non-retpoline compiler, please update your compiler..  Stop.
+make[1]: Leaving directory '/usr/src/linux-headers-4.15.0-50-generic'
+Makefile:1838: recipe for target 'modules' failed
+make: *** [modules] Error 2
+##################################################
+Compile make driver error: 2
+Please check error Mesg
+##################################################
+```
+I was desperately working on the offical, updated my gcc to higher or downgraded it, the errors occured each time. So I searched for long time and finally found the working solution below.
 
 ## Preparation
 1. An USB Wi-Fi Adapter(here I use the Tenda U12 USB Wi-Fi Adapter)
@@ -70,6 +87,10 @@ lo        Link encap:Local Loopback
 ```
 Here we notice the new network `enx502b73dc4dff`.
 
+The blue-working-light on the USB adapter is not working
+
+![https://rayxyz.github.io/assets/images/general/usb-wifi-adapter-is-not-working.png](https://rayxyz.github.io/assets/images/general/usb-wifi-adapter-is-not-working.png)
+
 Connect to the newly created network:
 ```
 enp4s0    Link encap:Ethernet  HWaddr 04:d9:f5:d1:bd:34  
@@ -99,6 +120,9 @@ lo        Link encap:Local Loopback
 ```
 Once the connection established, we got the assigned IP `192.168.1.113`.
 
+When the USB Wi-Fi adapter is working, the blue light is blinking
+
+![https://rayxyz.github.io/assets/images/general/usb-wifi-adapter-is-not-working.png](https://rayxyz.github.io/assets/images/general/usb-wifi-adapter-is-working.png)
 
 
 ## Reference
