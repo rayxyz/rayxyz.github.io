@@ -5,7 +5,7 @@ date: 2020-04-10 13:01 +0800
 categories: tech
 ---
 
-The working USB Wi-Fi adapter
+The working USB Wi-Fi adapter detects the active networks
 
 ![https://rayxyz.github.io/assets/images/general/USB-WiFi-Adapter-Networks-Detected.png](https://rayxyz.github.io/assets/images/general/USB-WiFi-Adapter-Networks-Detected.png)
 
