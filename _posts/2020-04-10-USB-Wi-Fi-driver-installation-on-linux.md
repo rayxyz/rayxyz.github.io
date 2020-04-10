@@ -5,6 +5,10 @@ date: 2020-04-10 13:01 +0800
 categories: tech
 ---
 
+The working USB Wi-Fi adapter
+
+![https://rayxyz.github.io/assets/images/general/USB-WiFi-Adapter-Networks-Detected.png](https://rayxyz.github.io/assets/images/general/USB-WiFi-Adapter-Networks-Detected.png)
+
 ## Before
 When I download the official Tenda U12 USB Wi-Fi Adapter linux driver, I cannot compile the driver, it always says:
 ```
