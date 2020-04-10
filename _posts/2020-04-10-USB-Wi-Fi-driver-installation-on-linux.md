@@ -126,4 +126,4 @@ When the USB Wi-Fi adapter is working, the blue light is blinking
 
 
 ## Reference
-https://rehmann.co/blog/drivers-wifi-usb-adapter-osxmac-linux-windows/
+[https://rehmann.co/blog/drivers-wifi-usb-adapter-osxmac-linux-windows/](https://rehmann.co/blog/drivers-wifi-usb-adapter-osxmac-linux-windows/)
