@@ -5,6 +5,13 @@ date: 2020-10-20 16:30 +0800
 categories: tech
 ---
 
+在实际生产环境中，数据库一般都要进行读写分离，提高系统的性能，实时对数据备份。本编文章详细介绍如何搭建MySQL主从，实现数据库的读写分离。
+
+注意MySQL8.x以下的版本不支持`bind-address`多IP地址的绑定，本文中所使用的MySQL版本信息为： 
+```
+mysql  Ver 14.14 Distrib 5.7.31, for Linux (x86_64) using  EditLine wrapper
+```
+
 # 准备: 
 
 IP: master -> 172.16.200.27; slave: 172.16.200.31.
@@ -162,6 +169,8 @@ Master_SSL_Verify_Server_Cert: No
 1 row in set (0.00 sec)
 ```
 
-# Reference
+
+# 参考
 [远程连接Linux下MySQL服务器](https://zhuanlan.zhihu.com/p/51455783)
+
 [How To Set Up Master Slave Replication in MySQL](https://www.digitalocean.com/community/tutorials/how-to-set-up-master-slave-replication-in-mysql)
