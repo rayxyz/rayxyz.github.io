@@ -20,13 +20,14 @@ categories: tech
 
 # 安装Java8
 由于Elastic Stack基于Java环境，所以先安装Java。
-命令行安装：
+
+## 命令行安装：
 ```
 sudo apt install openjdk-8-jdk
 ```
 安装好后不用配置环境变量。
 
-.deb包安装:
+## 手动.deb包安装:
 下载地址: [Java SE Development Kit 8u271](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) 
 
 版本: `jdk-8u271-linux-x64.tar.gz`
