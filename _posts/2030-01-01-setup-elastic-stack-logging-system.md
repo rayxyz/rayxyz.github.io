@@ -15,7 +15,7 @@ categories: tech
 ## 网络配置
 网络配置使用`Bridge Adaptor`方式，使虚拟机上的Linux系统和本机在同一个网络，方便SSH。
 
-![https://rayxyz.github.io/assets/images/general/elk-vm-ubuntu20.04-network-bridge](https://rayxyz.github.io/assets/images/general/elk-vm-ubuntu20.04-network-bridge)
+![https://rayxyz.github.io/assets/images/general/elk-vm-ubuntu20.04-network-bridge.png](https://rayxyz.github.io/assets/images/general/elk-vm-ubuntu20.04-network-bridge.png)
 
 
 # 安装Java8
