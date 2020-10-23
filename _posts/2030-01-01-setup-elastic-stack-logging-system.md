@@ -27,7 +27,7 @@ sudo apt install openjdk-8-jdk
 安装好后不用配置环境变量。
 
 .deb包安装:
-下载地址: [https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html](Java SE Development Kit 8u271) 
+下载地址: [Java SE Development Kit 8u271](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) 
 
 版本: `jdk-8u271-linux-x64.tar.gz`
 
@@ -68,7 +68,7 @@ source ~/.profile
 
 # 安装Elastic Stack
 
-这里使用官方安装方式，地址: [https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-elastic-stack.html](Getting started with the Elastic Stack)
+这里使用官方安装方式，地址: [Getting started with the Elastic Stack](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-elastic-stack.html)
 
 ## 安装Elastic
 ```
