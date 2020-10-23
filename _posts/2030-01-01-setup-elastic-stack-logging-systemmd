@@ -24,11 +24,46 @@ categories: tech
 ```
 sudo apt install openjdk-8-jdk
 ```
+安装好后不用配置环境变量。
 
 .deb包安装:
 下载地址: [https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html](Java SE Development Kit 8u271) 
+
+版本: `jdk-8u271-linux-x64.tar.gz`
+
+安装: 
+```
+sudo tar -xzvf jdk-8u271-linux-x64.tar.gz -C /usr/local 
 ```
 
+配置Java环境变量: 
+
+系统级环境变量
+```
+sudo vim /etc/profile 
+```
+添加
+```
+export JAVA_HOME=/usr/local/jdk1.8.0_271
+export PATH=$JAVA_HOME:$PATH
+```
+重启，是环境变量生效: 
+```
+reboot 
+```
+
+用户级环境变量: 
+```
+sudo vim ~/.profile
+```
+添加: 
+```
+export JAVA_HOME=/usr/local/jdk1.8.0_271
+export PATH=$JAVA_HOME:$PATH
+```
+source以下，是环境变量生效: 
+```
+source ~/.profile
 ```
 
 # 安装Elastic Stack
@@ -136,7 +171,62 @@ ray@rayvm01:/etc/nginx/sites-enabled$ cat default
 sudo nginx reload
 ```
 
-# 浏览器访问kibana服务
+# 在本机浏览器上访问kibana服务
 ```
 http://172.16.200.37
 ```
+
+首页界面: 
+![https://rayxyz.github.io/assets/images/general/elk-kibana-home-page.png](https://rayxyz.github.io/assets/images/general/elk-kibana-home-page.png)
+
+
+# 安装Metricbeat
+Metricbeat是用来作系统状态监控，将系统状态发送到Elastic后在kibana可视化展示系统状态。
+
+安装： 
+```
+curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.9.2-amd64.deb
+sudo dpkg -i metricbeat-7.9.2-amd64.deb
+```
+
+设置初始环境: 
+```
+sudo metricbeat setup -e
+```
+
+大概1分钟左右才设置好。
+
+查看启动的模块列表: 
+```
+ray@rayvm01:~$ sudo metricbeat modules list
+Enabled:
+system
+
+Disabled:
+activemq
+aerospike
+.
+.
+.
+```
+
+system模块已启动，可用以下命令启动:
+```
+sudo metricbeat modules enable system
+```
+
+启动metricbeat服务： 
+```
+sudo service metricbeat start
+```
+
+一切都顺利安装好后，可以到kibana Web界面查看可视化的系统状态信息: 
+到kibana Dashboard查看，查找选择要查看的dashboard: 
+
+![https://rayxyz.github.io/assets/images/general/elk-kibana-metricbeat-system-dashboard-select.png](https://rayxyz.github.io/assets/images/general/elk-kibana-metricbeat-system-dashboard-select.png)
+
+可视化的数据: 
+![https://rayxyz.github.io/assets/images/general/elk-kibana-metricbeat-system-metrics.png](https://rayxyz.github.io/assets/images/general/elk-kibana-metricbeat-system-metrics.png)
+
+
+# 集成Logstash
