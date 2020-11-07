@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Go编写CLI命令行工具"
+title: "用Cobra编写Go CLI命令行工具"
 date: 2030-01-02 16:30 +0800
 categories: tech
 ---
